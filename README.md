@@ -1,6 +1,6 @@
 <h1 align="center">
 	<br>
-	<img width="200" src="./csHintsLogoPink.png" alt="csHints Logo">
+	<img width="200" src="./csHintsLogo.png" alt="csHints Logo">
 	<br>
 </h1>
 
