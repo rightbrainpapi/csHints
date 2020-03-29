@@ -12,9 +12,7 @@ CS Hints cuts through the clutter to deliver coding resources built to help you 
 
 ## Authors
 
-### Darnell Simonn
-
-<!-- - _Initial work_ - [RightBrainPapi](https://github.com/rightbrainpapi) -->
+### Darnell Simon
 
 - [Homepage](https://rightbrainpapi.com)
 - [LinkedIn](https://www.linkedin.com/in/darnellsimon/)
