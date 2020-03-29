@@ -78,7 +78,7 @@ Add additional notes about how to deploy this on a live system
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/rightbrainpapi/csHints/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 <!-- ## Versioning
 
@@ -86,7 +86,9 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-**Darnell Simonn** - _Initial work_ - [RightBrainPapi](https://github.com/rightbrainpapi)
+### Darnell Simonn
+
+<!-- - _Initial work_ - [RightBrainPapi](https://github.com/rightbrainpapi) -->
 
 - [Homepage](https://rightbrainpapi.com)
 - [LinkedIn](https://www.linkedin.com/in/darnellsimon/)
