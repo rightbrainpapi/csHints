@@ -1,6 +1,8 @@
 # CS Hints
 
-One Paragraph of project description goes here
+Cut through the clutter. Find coding resources built to help you master technical concepts. CS Hints is a search engine to help you search for, save, and share technical resources.
+
+Has anyone ever asked you for resources to learn how to code? Well our team has been asked plenty. That is why we decided to build CS Hints.
 
 ## Getting Started
 
