@@ -66,21 +66,32 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-- [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+- [MongoDB](https://www.mongodb.com/)-Mongodb
+- [Express.js](https://expressjs.com/)-Express
+- [Node.js](https://nodejs.org/en/)-Node.js
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - JavaScript
+
+- [Resources](https://github.com/sdmg15/Best-websites-a-programmer-should-visit/blob/master/README.md#tutorials) - Data Sourced
+  <!-- - [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
 - [Maven](https://maven.apache.org/) - Dependency Management
-- [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+- [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds -->
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Versioning
+<!-- ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). -->
 
 ## Authors
 
-- **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
+- **Darnell Simonn** - _Initial work_ - [RightBrainPapi](https://github.com/rightbrainpapi)
+
+* [Homepage](https://rightbrainpapi.com)
+* [LinkedIn](https://www.linkedin.com/in/darnellsimon/)
+* [GitHub](https://github.com/rightbrainpapi)
+* [Twitter](https://twitter.com/rightbrainpapi)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
