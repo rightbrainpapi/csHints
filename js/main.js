@@ -153,6 +153,29 @@ let tutorials = [
 		title: "egghead",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
+	},
+	{
+		date: "2018-01-24T21:42:27.388Z",
+		image: "../img/hardCodedData/5-illustrated.png",
+		website: "https://illustrated.dev/",
+		isPublished: false,
+		price: 1,
+		tags: (2)[("afro", "afrochella")],
+		title: "illustrated.dev",
+		description: "",
+		user: "User Name",
+		_id: "5df5093ca9644c9fd0ffdd3c"
+	},
+	{
+		date: "2018-01-24T21:42:27.388Z",
+		image: "../img/hardCodedData/6-masteringMarkdown.png",
+		website: "https://guides.github.com/features/mastering-markdown/",
+		isPublished: false,
+		price: 1,
+		tags: (2)[("afro", "afrochella")],
+		title: "Mastering Markdown",
+		user: "User Name",
+		_id: "5df5093ca9644c9fd0ffdd3c"
 	}
 ];
 let gifs = [
