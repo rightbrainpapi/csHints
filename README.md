@@ -1,3 +1,9 @@
+<h1 align="center">
+	<br>
+	<img width="200" src="./csHintsLogo.png" alt="awesome">
+	<br>
+</h1>
+
 # CS Hints
 
 Has anyone ever asked you for a recommend list of coding resources? Well our team has been asked many times over. This is why we decided to build CS Hints.
