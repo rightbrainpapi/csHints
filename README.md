@@ -86,12 +86,12 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-- **Darnell Simonn** - _Initial work_ - [RightBrainPapi](https://github.com/rightbrainpapi)
+**Darnell Simonn** - _Initial work_ - [RightBrainPapi](https://github.com/rightbrainpapi)
 
-* [Homepage](https://rightbrainpapi.com)
-* [LinkedIn](https://www.linkedin.com/in/darnellsimon/)
-* [GitHub](https://github.com/rightbrainpapi)
-* [Twitter](https://twitter.com/rightbrainpapi)
+- [Homepage](https://rightbrainpapi.com)
+- [LinkedIn](https://www.linkedin.com/in/darnellsimon/)
+- [GitHub](https://github.com/rightbrainpapi)
+- [Twitter](https://twitter.com/rightbrainpapi)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
