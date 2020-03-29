@@ -14,6 +14,19 @@ CS Hints cuts through the clutter to deliver coding resources built to help you 
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
+## Authors
+
+### Darnell Simonn
+
+<!-- - _Initial work_ - [RightBrainPapi](https://github.com/rightbrainpapi) -->
+
+- [Homepage](https://rightbrainpapi.com)
+- [LinkedIn](https://www.linkedin.com/in/darnellsimon/)
+- [GitHub](https://github.com/rightbrainpapi)
+- [Twitter](https://twitter.com/rightbrainpapi)
+
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
 ### Prerequisites
 
 What things you need to install the software and how to install them
@@ -70,11 +83,11 @@ Add additional notes about how to deploy this on a live system
 - [Express.js](https://expressjs.com/)-Express
 - [Node.js](https://nodejs.org/en/)-Node.js
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - JavaScript
-
 - [Resources](https://github.com/sdmg15/Best-websites-a-programmer-should-visit/blob/master/README.md#tutorials) - Data Sourced
-  <!-- - [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-- [Maven](https://maven.apache.org/) - Dependency Management
-- [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds -->
+
+  <!-- - [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used -->
+  <!-- - [Maven](https://maven.apache.org/) - Dependency Management -->
+  <!-- - [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds -->
 
 ## Contributing
 
@@ -83,19 +96,6 @@ Please read [CONTRIBUTING.md](https://github.com/rightbrainpapi/csHints/blob/mas
 <!-- ## Versioning
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). -->
-
-## Authors
-
-### Darnell Simonn
-
-<!-- - _Initial work_ - [RightBrainPapi](https://github.com/rightbrainpapi) -->
-
-- [Homepage](https://rightbrainpapi.com)
-- [LinkedIn](https://www.linkedin.com/in/darnellsimon/)
-- [GitHub](https://github.com/rightbrainpapi)
-- [Twitter](https://twitter.com/rightbrainpapi)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
