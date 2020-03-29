@@ -52,8 +52,8 @@ function changeSearchPage(e) {
 
 		// [] Dynamically evaluate the cases whether photos gifs or videos.
 		switch (true) {
-			case clickedItem === "photos":
-				console.log("fetching photos");
+			case clickedItem === "tutorials":
+				console.log("fetching tutorials");
 				// appendToDOM(photos); // Variable is the array of objects stored from the axios call.
 				filteredSearch(photos);
 				break;
@@ -101,17 +101,8 @@ let search_term = "";
 let photos = [
 	{
 		date: "2018-01-24T21:42:27.388Z",
-		image: "../img/hardCodedData/0-boqapiPhotos.png",
-		isPublished: false,
-		price: 1,
-		tags: (2)[("afro", "afrochella")],
-		title: "Africa",
-		user: "User Name",
-		_id: "5df5093ca9644c9fd0ffdd3c"
-	},
-	{
-		date: "2018-01-24T21:42:27.388Z",
-		image: "../img/hardCodedData/5-boqapiPhotos.png",
+		image: "../img/hardCodedData/1-hackrLearnJava.png",
+		website: "https://hackr.io/tutorials/learn-java",
 		isPublished: false,
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
@@ -121,7 +112,8 @@ let photos = [
 	},
 	{
 		date: "2018-01-24T21:42:27.388Z",
-		image: "../img/hardCodedData/6-boqapiPhotos.png",
+		image: "../img/hardCodedData/2-overApi.png",
+		website: "http://overapi.com/",
 		isPublished: false,
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
@@ -131,7 +123,19 @@ let photos = [
 	},
 	{
 		date: "2018-01-24T21:42:27.388Z",
-		image: "../img/hardCodedData/2-boqapiPhotos.png",
+		image: "../img/hardCodedData/0-gitFromTheInsideOut.png",
+		website: "https://maryrosecook.com/blog/post/git-from-the-inside-out",
+		isPublished: false,
+		price: 1,
+		tags: (2)[("afro", "afrochella")],
+		title: "Africa",
+		user: "User Name",
+		_id: "5df5093ca9644c9fd0ffdd3c"
+	},
+	{
+		date: "2018-01-24T21:42:27.388Z",
+		image: "../img/hardCodedData/3-w3Schools.png",
+		website: "https://www.w3schools.com/",
 		isPublished: false,
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
