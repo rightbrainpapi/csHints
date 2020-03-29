@@ -1,6 +1,6 @@
 # CS Hints
 
-Has anyone ever asked you for a recommend list of resources to learn how to code? Well our team has been asked many times over. This is why we decided to build CS Hints.
+Has anyone ever asked you for a recommend list of coding resources? Well our team has been asked many times over. This is why we decided to build CS Hints.
 
 CS Hints cuts through the clutter to deliver coding resources built to help you master technical concepts. CS Hints allows users to search for, save, and share technical resources with friends or themselves.
 

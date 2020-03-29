@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" href="/css/main.css" />
+		<title>CS Hints</title>
+		<!-- <link rel="shortcut icon" sizes="3000x3000" href="public/assets/fav2.png" /> -->
+	</head>
+	<body>
+		<header>
+			<nav class="navBar">
+				<div class="left">
+					<div class="logo">
+						<!-- <img class="logo-image" src="public/assets/1024x1024.png" alt=""> -->
+						<a href="index.html">
+							<h1>CS Hints</h1>
+							<p>Search | Save | Share</p>
+						</a>
+					</div>
+					<div class="nav-search-form">
+						<form action="#">
+							<input
+								type="text"
+								placeholder="Search for excellent coding resources built to help you master technical concepts"
+							/>
+						</form>
+					</div>
+				</div>
+				<ul class="nav active">
+					<li><a href="#">Login</a></li>
+					<!-- <li class='inside'><a href="#">Log Out</a></li>
+                <li class='inside'><a href="#">Profile</a></li> -->
+					<li><a href="#" id="buttonTrig" class="button">Join Free</a></li>
+				</ul>
+
+				<!-- <ul class="nav ">
+                <li class='inside'><a href="#">Log Out</a></li>
+                <li class='inside'><a href="#">Profile</a></li>
+            </ul> -->
+			</nav>
+			<div class="category-nav">
+				<div href="#" class="category">
+					<a href="#"> General Tools</a>
+				</div>
+				<div href="#" class="category">
+					<a href="#"> Coding Styles</a>
+				</div>
+				<div href="#" class="category">
+					<a href="#"> Cryptocurrency</a>
+				</div>
+				<div href="#" class="category">
+					<a href="#"> Coding Practice</a>
+				</div>
+				<div href="#" class="category">
+					<a href="#"> Current News</a>
+				</div>
+				<div href="#" class="category">
+					<a href="#"> Magazines</a>
+				</div>
+				<div href="#" class="category">
+					<a href="#"> Coding Advice</a>
+				</div>
+				<div href="#" class="category">
+					<a href="#"> Tutorials</a>
+				</div>
+				<div href="#" class="category">
+					<a href="#"> Books</a>
+				</div>
+			</div>
+		</header>
+
+		<section class="hero">
+			<div class="hero-container">
+				<div class="hero-content">
+					<h1>CS Hints</h1>
+					<p>
+						The internet's source for excellent programming resources.<br />
+						Powered by programmers worldwide.
+					</p>
+					<div class="hero-search-form">
+						<form action="#">
+							<input
+								type="text"
+								id="search"
+								placeholder="search for excellent coding resources built to help you master technical concepts"
+							/>
+						</form>
+					</div>
+					<div id="searchTabContainer">
+						<div id="photos" class="searchTab">
+							Tutorials
+						</div>
+						<div id="gifs" class="searchTab">
+							Tools
+						</div>
+						<div id="videos" class="searchTab">
+							Weeklys
+						</div>
+					</div>
+					<!-- This will need to be modified to be dynamic -->
+
+					<!-- <div class="current-search-tabs-container"> 
+                    <h3> Current Page:</h3>
+                    <h3 >Photos</h3> 
+                    <h3 >Gifs</h3>
+                    <h3 >Video</h3>
+                </div> -->
+
+					<!-- This will need to be modified to be dynamic -->
+					<div class="trending-search-tags">
+						<p>
+							Trending searches: <a href="#">tutorials</a>,
+							<a href="#">interview prep</a>,<a href="#">cryptocurrency</a>,
+							<a href="#">jobs</a>,
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="hero-overlay"></div>
+		</section>
+
+		<section class="images">
+			<div id="searchPageContainer">
+				<h1 id="searchPage">Page Name</h1>
+			</div>
+
+			<!-- This is the Masonary Container -->
+			<!-- Masonary Container staggers the images -->
+			<div class="masonry">
+				<div id="results"></div>
+				<ul></ul>
+			</div>
+		</section>
+
+		<!-- Modal Section -->
+
+		<div class="bg-modal">
+			<div class="modal-contents">
+				<h1>Registeration</h1>
+				<div class="close">+</div>
+				<img src="../public/assets/sahara.jpg" alt="" />
+
+				<form action="">
+					<input type="text" placeholder="Name" />
+					<input type="email" placeholder="E-Mail" />
+					<input type="password" placeholder="Password" />
+					<a href="#" id="submit" class="button">Submit</a>
+				</form>
+			</div>
+		</div>
+
+		<footer class="footerContainer">
+			<div class="footer">
+				<!-- Copyright &copy; 2019 | CS Hints Group LLC. -->
+			</div>
+		</footer>
+		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+		<script src="./js/main.js"></script>
+	</body>
+</html>
