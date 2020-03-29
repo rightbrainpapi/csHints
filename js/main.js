@@ -106,7 +106,7 @@ let photos = [
 		isPublished: false,
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
-		title: "Crown",
+		title: "hackr.io",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -118,7 +118,7 @@ let photos = [
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
 		title: "Egypt",
-		user: "User Name",
+		user: "overapi",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
 	{
@@ -128,7 +128,7 @@ let photos = [
 		isPublished: false,
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
-		title: "Africa",
+		title: "maryrosecook",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -139,7 +139,18 @@ let photos = [
 		isPublished: false,
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
-		title: "llll",
+		title: "w3schools",
+		user: "User Name",
+		_id: "5df5093ca9644c9fd0ffdd3c"
+	},
+	{
+		date: "2018-01-24T21:42:27.388Z",
+		image: "../img/hardCodedData/4-eggHead.png",
+		website: "https://egghead.io/",
+		isPublished: false,
+		price: 1,
+		tags: (2)[("afro", "afrochella")],
+		title: "egghead",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	}
