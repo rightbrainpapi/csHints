@@ -50,20 +50,20 @@ function changeSearchPage(e) {
 		// if nothing is in the search bar it displays the entire data base.
 		////////////////////////////////////////////////////////////////////
 
-		// [] Dynamically evaluate the cases whether photos gifs or videos.
+		// [] Dynamically evaluate the cases whether tutorials gifs or videos.
 		switch (true) {
 			case clickedItem === "tutorials":
 				console.log("fetching tutorials");
-				// appendToDOM(photos); // Variable is the array of objects stored from the axios call.
-				filteredSearch(photos);
+				// appendToDOM(tutorials); // Variable is the array of objects stored from the axios call.
+				filteredSearch(tutorials);
 				break;
 			case clickedItem === "gifs":
-				console.log("fetching photos");
+				console.log("fetching tutorials");
 				// appendToDOM(gifs); // Variable is the array of objects stored from the axios call.
 				filteredSearch(gifs);
 				break;
 			case clickedItem === "videos":
-				console.log("fetching photos");
+				console.log("fetching tutorials");
 				// appendToDOM(videos); // Variable is the array of objects stored from the axios call.
 				filteredSearch(videos);
 				break;
@@ -98,7 +98,7 @@ const search_input = document.getElementById("search");
 const results = document.getElementById("results");
 
 let search_term = "";
-let photos = [
+let tutorials = [
 	{
 		date: "2018-01-24T21:42:27.388Z",
 		image: "../img/hardCodedData/1-hackrLearnJava.png",
@@ -326,7 +326,7 @@ fetchMedia();
 // search_input.addEventListener('input', (e) => {
 //     // [x] check to see what page we are on then run the search filter for that page.
 //     // [x] get the document
-//     // [x] if document. inner HTMML is gif or photos or videos run filteredSearch with that in params
+//     // [x] if document. inner HTMML is gif or tutorials or videos run filteredSearch with that in params
 
 // 	search_term = e.target.value;
 // 	// re-display gifs again based on the new search_term
@@ -338,7 +338,7 @@ search_input.addEventListener("input", e => {
 	search_term = e.target.value;
 	// [x] check to see what page we are on then run the search filter for that page.
 	// [x] get the document
-	// [x] if document. inner HTMML is gif or photos or videos run filteredSearch with that in params
+	// [x] if document. inner HTMML is gif or tutorials or videos run filteredSearch with that in params
 
 	// Checks what page we are on. then enters switch statement to call the appropriate filter
 	let ourPage = document
@@ -347,9 +347,9 @@ search_input.addEventListener("input", e => {
 	console.log(ourPage);
 
 	switch (ourPage) {
-		case "photos":
-			// alert( 'This is photos' );
-			filteredSearch(photos);
+		case "tutorials":
+			// alert( 'This is tutorials' );
+			filteredSearch(tutorials);
 			break;
 		case "gifs":
 			filteredSearch(gifs);
