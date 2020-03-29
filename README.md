@@ -99,6 +99,10 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
+## Copyright and License
+
+Copyright 2020 CS Hints. Code released under [the MIT License](LICENSE.md). Images released under [Creative Commons](https://creativecommons.org/licenses/by/3.0/legalcode.txt).
+
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
