@@ -89,19 +89,19 @@ Add additional notes about how to deploy this on a live system
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/rightbrainpapi/csHints/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 <!-- ## Versioning
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). -->
 
-## License
+<!-- ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details -->
 
 ## Copyright and License
 
-Copyright 2020 CS Hints. Code released under [the MIT License](LICENSE.md). Images released under [Creative Commons](https://creativecommons.org/licenses/by/3.0/legalcode.txt).
+Copyright 2020 Darnell Simon. Code released under [the MIT License](LICENSE.md). Images released under [Creative Commons](https://creativecommons.org/licenses/by/3.0/legalcode.txt).
 
 ## Acknowledgments
 
