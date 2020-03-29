@@ -18,6 +18,7 @@ html {
 body {
 	font-family: "Helvetica", sans-serif;
 	/* background: rgb(252, 238, 234); */
+	/* background: #edfaff; */
 }
 
 ul {
@@ -174,9 +175,13 @@ button:focus {
 
 .hero {
 	height: 600px;
-	background: url("/public/assets/sahara.jpg") no-repeat right top;
+	/* background: url("/public/assets/sahara.jpg") no-repeat right top; */
+	background: url("/public/assets/heroSplash2.svg") no-repeat right top;
+
 	background-size: 100% 620px;
+
 	width: 100%;
+	background-size: cover;
 	position: relative;
 }
 
@@ -278,12 +283,12 @@ button:focus {
 }
 
 .trending-search-tags a {
-	color: #999;
+	color: #fff;
 	transition: 0.5s color;
 }
 
 .trending-search-tags a:hover {
-	color: #fff;
+	color: turquoise;
 }
 
 /* /////////////////// */

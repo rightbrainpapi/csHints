@@ -176,6 +176,17 @@ let tutorials = [
 		title: "Mastering Markdown",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
+	},
+	{
+		date: "2018-01-24T21:42:27.388Z",
+		image: "../img/hardCodedData/10-codeAcademy.png",
+		website: "https://www.codecademy.com/",
+		isPublished: false,
+		price: 1,
+		tags: (2)[("afro", "afrochella")],
+		title: "codecademy",
+		user: "User Name",
+		_id: "5df5093ca9644c9fd0ffdd3c"
 	}
 ];
 let gifs = [
@@ -217,16 +228,6 @@ let gifs = [
 	}
 ];
 let videos = [
-	{
-		date: "2018-01-24T21:42:27.388Z",
-		image: "../img/3-boqapiGifs.gif",
-		isPublished: false,
-		price: 1,
-		tags: (2)[("afro gifs", "afrochella")],
-		title: "LLLLL",
-		user: "User Name",
-		_id: "5df5093ca9644c9fd0ffdd3c"
-	},
 	{
 		date: "2018-01-24T21:42:27.388Z",
 		image: "../img/3-boqapiGifs.gif",
