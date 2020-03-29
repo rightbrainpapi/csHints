@@ -10,10 +10,6 @@ Has anyone ever asked you for a recommend list of coding resources? Well our tea
 
 CS Hints cuts through the clutter to deliver coding resources built to help you master technical concepts. CS Hints allows users to search for, save, and share technical resources with friends or themselves.
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 ## Authors
 
 ### Darnell Simonn
@@ -26,6 +22,10 @@ These instructions will get you a copy of the project up and running on your loc
 - [Twitter](https://twitter.com/rightbrainpapi)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
