@@ -320,36 +320,13 @@ button:focus {
 /* ////////////// */
 /* ////////////// */
 
-#searchPageContainer1 {
-	width: 1000px;
-	height: 1000px;
-	/* background-color: black; */
-	display: flex;
-	justify-content: center;
-	width: 200px;
-	/* display: block; */
-	/* margin: 20px; */
-	display: none;
-	/* background: green; */
-}
-#searchPage1 {
-	/* color: chartreuse; */
-	position: relative;
-	font-family: "Frank Ruhl Libre", serif;
-	font-size: 30px;
-	padding-bottom: 20px;
-	color: salmon;
-	z-index: 3;
-	/* background: green; */
-}
-
 .images {
 	text-align: center;
 	margin: 2rem 2rem;
 }
 
 .masonry {
-	background: #ffece6;
+	/* background: #ffece6; */
 	column-count: 4;
 	column-gap: 1em;
 
@@ -360,9 +337,13 @@ button:focus {
     justify-content: center; */
 }
 
-#aboutTitle {
-	align-self: center;
+#results a {
+	color: black;
 }
+
+/* #aboutTitle {
+	align-self: center;
+} */
 /* #myImag{
 	position: relative;
 }
