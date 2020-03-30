@@ -50,7 +50,7 @@ function changeSearchPage(e) {
 		// if nothing is in the search bar it displays the entire data base.
 		////////////////////////////////////////////////////////////////////
 
-		// [] Dynamically evaluate the cases whether tutorials gifs or videos.
+		// [] Dynamically evaluate the cases whether tutorials gifs or weeklys.
 		switch (true) {
 			case clickedItem === "tutorials":
 				console.log("fetching tutorials");
@@ -62,10 +62,10 @@ function changeSearchPage(e) {
 				// appendToDOM(tools); // Variable is the array of objects stored from the axios call.
 				filteredSearch(tools);
 				break;
-			case clickedItem === "videos":
+			case clickedItem === "weeklys":
 				console.log("fetching tutorials");
-				// appendToDOM(videos); // Variable is the array of objects stored from the axios call.
-				filteredSearch(videos);
+				// appendToDOM(weeklys); // Variable is the array of objects stored from the axios call.
+				filteredSearch(weeklys);
 				break;
 			default:
 				alert("We can  use this to default to a specific search");
@@ -225,7 +225,7 @@ let tutorials = [
 let tools = [
 	{
 		date: "2018-01-24T21:42:27.388Z",
-		image: "../img/hardCodedData/7-snapSvg.png",
+		image: "../img/hardCodedData/11-tools-snapSvg.png",
 		website: "http://snapsvg.io",
 		isPublished: false,
 		price: 1,
@@ -235,60 +235,81 @@ let tools = [
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
 	{
-		title: "Some Name",
-		user: "User Name",
-		tags: ["afro gifs", "afrochella"],
-		image: "../img/21-boqapiGifs.gif",
 		date: "2018-01-24T21:42:27.388Z",
-		price: 1,
-		isPublished: false
-	},
-	{
-		title: "Some Name",
-		user: "User Name",
-		tags: ["afro gifs", "afrochella"],
-		image: "../img/22-boqapiGifs.gif",
-		date: "2018-01-24T21:42:27.388Z",
-		price: 2,
-		isPublished: true
-	},
-	{
-		title: "Some Name",
-		user: "User Name",
-		tags: ["afro gifs", "afrochella"],
-		image: "../img/23-boqapiGifs.gif",
-		date: "2018-01-24T21:42:27.388Z",
-		price: 1,
-		isPublished: true
-	},
-	{
-		title: "Some Name",
-		user: "User Name",
-		tags: ["afro gifs", "afrochella"],
-		image: "../img/24-boqapiGifs.gif",
-		date: "2018-01-24T21:42:27.388Z",
-		price: 3,
-		isPublished: true
-	}
-];
-let videos = [
-	{
-		date: "2018-01-24T21:42:27.388Z",
-		image: "../img/3-boqapiGifs.gif",
+		image: "../img/hardCodedData/12-tools-LearnGitBranching.png",
+		website: "https://learngitbranching.js.org/",
 		isPublished: false,
 		price: 1,
-		tags: (2)[("afro gifs", "afrochella")],
-		title: "LLLLL",
+		tags: (2)[("afro", "afrochella")],
+		title: "Git Branching",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
 	{
 		date: "2018-01-24T21:42:27.388Z",
-		image: "../img/3-boqapiGifs.gif",
+		image: "../img/hardCodedData/13-tools-FlexFroggy.png",
+		website: "https://flexboxfroggy.com/",
 		isPublished: false,
 		price: 1,
-		tags: (2)[("afro gifs", "afrochella")],
-		title: "LLLLL",
+		tags: (2)[("afro", "afrochella")],
+		title: "FlexFroggy",
+		user: "User Name",
+		_id: "5df5093ca9644c9fd0ffdd3c"
+	},
+	{
+		date: "2018-01-24T21:42:27.388Z",
+		image: "../img/hardCodedData/14-tools-CodePen.png",
+		website: "https://codepen.io/",
+		isPublished: false,
+		price: 1,
+		tags: (2)[("afro", "afrochella")],
+		title: "CodePen",
+		user: "User Name",
+		_id: "5df5093ca9644c9fd0ffdd3c"
+	},
+	{
+		date: "2018-01-24T21:42:27.388Z",
+		image: "../img/hardCodedData/15-tools-EmailDrop.png",
+		website: "https://www.emaildrop.io/",
+		isPublished: false,
+		price: 1,
+		tags: (2)[("afro", "afrochella")],
+		title: "EmailDrop",
+		user: "User Name",
+		_id: "5df5093ca9644c9fd0ffdd3c"
+	},
+	{
+		date: "2018-01-24T21:42:27.388Z",
+		image: "../img/hardCodedData/16-tools-CodeShare.png",
+		website: "https://codeshare.io/",
+		isPublished: false,
+		price: 1,
+		tags: (2)[("afro", "afrochella")],
+		title: "CodeShare",
+		user: "User Name",
+		_id: "5df5093ca9644c9fd0ffdd3c"
+	}
+];
+let weeklys = [
+	{
+		date: "2018-01-24T21:42:27.388Z",
+		image: "../img/hardCodedData/20-weekly-DevChat.png",
+		website: "https://devchat.tv/",
+		isPublished: false,
+		price: 1,
+		tags: (2)[("afro", "afrochella")],
+		title: "DevChat.tv",
+		user: "User Name",
+		_id: "5df5093ca9644c9fd0ffdd3c"
+	},
+	{
+		date: "2018-01-24T21:42:27.388Z",
+		image: "../img/hardCodedData/21-weekly-CodeNewbie.png",
+		website: "https://www.codenewbie.org/",
+		isPublished: false,
+		price: 1,
+		tags: (2)[("afro", "afrochella")],
+		title: "CodeNewbie",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	}
@@ -394,7 +415,7 @@ fetchMedia();
 // search_input.addEventListener('input', (e) => {
 //     // [x] check to see what page we are on then run the search filter for that page.
 //     // [x] get the document
-//     // [x] if document. inner HTMML is gif or tutorials or videos run filteredSearch with that in params
+//     // [x] if document. inner HTMML is gif or tutorials or weeklys run filteredSearch with that in params
 
 // 	search_term = e.target.value;
 // 	// re-display gifs again based on the new search_term
@@ -406,7 +427,7 @@ search_input.addEventListener("input", e => {
 	search_term = e.target.value;
 	// [x] check to see what page we are on then run the search filter for that page.
 	// [x] get the document
-	// [x] if document. inner HTMML is gif or tutorials or videos run filteredSearch with that in params
+	// [x] if document. inner HTMML is gif or tutorials or weeklys run filteredSearch with that in params
 
 	// Checks what page we are on. then enters switch statement to call the appropriate filter
 	let ourPage = document
@@ -422,9 +443,9 @@ search_input.addEventListener("input", e => {
 		case "gifs":
 			filteredSearch(gifs);
 			break;
-		case "videos":
-			// alert( 'This is videos' );
-			filteredSearch(videos);
+		case "weeklys":
+			// alert( 'This is weeklys' );
+			filteredSearch(weeklys);
 			break;
 		default:
 			alert("We can  use this to default to a specific search");
