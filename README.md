@@ -32,10 +32,6 @@ These instructions will get you a copy of the project up and running on your loc
 - [VsCode](https://code.visualstudio.com/)
 - [LiveServer](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
-```
-Give examples
-```
-
 ### Installing Frontend
 
 A step by step series of examples that tell you how to get a development env running
@@ -50,11 +46,13 @@ code .          // This command opens up VS Code Editor
 
 Once you have the code editor open:
 
+```
 - Navigate to left panel of VS code
 - Click file icon to open file list
 - Navigate to the index.html
 - Right click or three finger click display options
 - select Open with Live Server
+```
 
 <!-- ## Running the tests
 
