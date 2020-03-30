@@ -10,6 +10,8 @@ Has anyone ever asked you for a recommend list of coding resources? Well our tea
 
 CS Hints cuts through the clutter to deliver coding resources built to help you master technical concepts. CS Hints allows users to search for, save, and share technical resources with friends or themselves.
 
+When this project is finished users should be able to search for resources, pin those resources to their resource board, and sort resources into personalized list for their own use or to share with others as a "recommendations".
+
 ## Authors
 
 ### Darnell Simon
