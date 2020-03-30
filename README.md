@@ -29,15 +29,21 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+- [VsCode](https://code.visualstudio.com/)
+- [LiveServer](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
 ```
 Give examples
 ```
 
-### Installing
+### Installing Fontend
 
 A step by step series of examples that tell you how to get a development env running
+
+```
+git clone https://github.com/rightbrainpapi/csHints.git
+
+```
 
 Say what the step will be
 
