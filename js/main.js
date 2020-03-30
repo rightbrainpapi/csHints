@@ -220,7 +220,7 @@ let tutorials = [
 		isPublished: false,
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
-		title: "codecademy",
+		title: "codeacdemy",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	}
@@ -425,20 +425,20 @@ function filteredSearch(mediaElemsToFilter) {
 // [] I need to dynamically use this get request.
 //      - fetchMedia = (mediaType)
 //      - axios.get(`http://localhost:3000/api/${mediaType}`)
-const fetchMedia = () => {
-	axios
-		.get("http://localhost:3000/api/images")
-		.then(response => {
-			tools = response.data;
-			console.log(`GET list tools`, tools);
-			// append to DOM
-			myPics = response.data;
-			// appendToDOM(tools); //This should be commented out
-		})
-		.catch(error => console.error(error));
-};
+// const fetchMedia = () => {
+// 	axios
+// 		.get("http://localhost:3000/api/images")
+// 		.then(response => {
+// 			tools = response.data;
+// 			console.log(`GET list tools`, tools);
+// 			// append to DOM
+// 			myPics = response.data;
+// 			// appendToDOM(tools); //This should be commented out
+// 		})
+// 		.catch(error => console.error(error));
+// };
 
-fetchMedia();
+// fetchMedia();
 
 ////////////////////////////////////////////////
 ////////////////////////////////////////////////
