@@ -6,11 +6,11 @@
 
 # CS Hints
 
-Has anyone ever asked you for a recommend list of coding resources? Well our team has been asked many times over. This is why we decided to build CS Hints.
+Has anyone ever asked you for a recommended list of coding resources? Well, our team has been asked many times over. This is why we decided to build CS Hints.
 
-CS Hints cuts through the clutter to deliver coding resources built to help you master technical concepts. CS Hints allows users to search for, save, and share technical resources with friends or themselves.
+CS Hints cuts through the clutter to deliver coding resources built to help you master technical concepts. CS Hints allow users to search for, save, and share technical resources with friends or themselves.
 
-When this project is finished users should be able to search for resources, pin those resources to their resource board, and sort resources into personalized list for their own use or to share with others as a "recommendations".
+When this project is finished users should be able to search for resources, pin those resources to their resource board, and sort resources into a personalized list for their own use or to share with others as a "recommendations".
 
 ## Authors
 
@@ -96,6 +96,6 @@ Copyright 2020 Darnell Simon. Code released under [the MIT License](LICENSE.md).
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
+- Hat tip to anyone who's code was used
 - Inspiration
 - etc
