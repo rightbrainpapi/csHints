@@ -175,8 +175,9 @@ button:focus {
 
 .hero {
 	height: 600px;
-	/* background: url("/public/assets/sahara.jpg") no-repeat right top; */
-	background: url("/public/assets/heroSplash.svg") no-repeat right top;
+	background: url("https://cdn.glitch.com/b75055dd-03c2-47e5-9f5d-7923ac439cc1%2FheroSplash.svg?v=1585578755305")
+		no-repeat right top;
+	/* background: url("./public/assets/heroSplash.svg") no-repeat right top; */
 
 	background-size: 100% 620px;
 
