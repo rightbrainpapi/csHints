@@ -31,6 +31,7 @@ closeFunction();
 var elementsArray = document.getElementsByClassName("tabName");
 
 var theParent = document.getElementById("searchTabContainer");
+// var theParent = document.getElementById("grandParentContainer");
 theParent.addEventListener("click", changeSearchPage, false);
 
 function changeSearchPage(e) {
@@ -50,7 +51,7 @@ function changeSearchPage(e) {
 		// if nothing is in the search bar it displays the entire data base.
 		////////////////////////////////////////////////////////////////////
 
-		// [] Dynamically evaluate the cases whether tutorials gifs or weeklys.
+		// [] Dynamically evaluate the cases whether tutorials tools or weeklys.
 		switch (true) {
 			case clickedItem === "tutorials":
 				console.log("fetching tutorials");
@@ -70,6 +71,8 @@ function changeSearchPage(e) {
 			default:
 				alert("We can  use this to default to a specific search");
 		}
+
+		document.getElementById("searchPageContainer1").style.display = "block";
 	}
 	e.stopPropagation();
 }
@@ -117,8 +120,8 @@ let tutorials = [
 		isPublished: false,
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
-		title: "Egypt",
-		user: "overapi",
+		title: "overapi",
+		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
 	{
@@ -324,24 +327,54 @@ let myPics = [];
 
 const createLi = mediaElem => {
 	const li = document.createElement("li");
+	const mediaElem_div = document.createElement("div");
 	const mediaElem_image = document.createElement("img");
-	// const mediaElem_title = document.createElement('h3');
-	const mediaElem_info = document.createElement("div");
+	const mediaElem_title = document.createElement("li");
+	const mediaElem_src = document.createElement("a");
+	// const mediaElem_info = document.createElement("div");
 	// const mediaElem_population = document.createElement('h2');
 	// const mediaElem_popupation_text = document.createElement('h5');
 
+	// Create anchor element.
+	var a = document.createElement("a");
+
+	// Create the text node for anchor element.
+	var myTitle = mediaElem.title;
+	var link = document.createTextNode(myTitle);
+
+	// Append the text node to anchor element.
+	a.appendChild(link);
+
+	// Set the title.
+	// a.title = "This is Link";
+
+	// Set the href property.
+	var webLink = (mediaElem_src.src = mediaElem.website);
+	a.href = webLink;
+
+	// Append the anchor element to the body.
+	// document.body.appendChild(a);
+
+	// Adding
 	li.classList.add("mediaElem-item");
-	mediaElem_info.classList.add("mediaElem-info");
+	// mediaElem_info.classList.add("mediaElem-info");
 
-	mediaElem_image.src = mediaElem.image;
+	//adding imag and src
 	mediaElem_image.classList.add("mediaElem-image");
+	mediaElem_image.src = mediaElem.image;
 
-	// mediaElem_title.innerText = mediaElem.title;
+	// console.log(now);
+
+	mediaElem_title.innerText = mediaElem.title;
 	// mediaElem_title.classList.add('mediaElem-title');
+	li.appendChild(mediaElem_div)
+		.appendChild(a)
+		.appendChild(mediaElem_image);
 
-	li.appendChild(mediaElem_image);
+	// li.appendChild(mediaElem_div).appendChild(mediaElem_title);
+	// li.appendChild(mediaElem_title).appendChild(mediaElem_image);
 	// li.appendChild(mediaElem_title);
-	li.appendChild(mediaElem_info);
+	// li.appendChild(mediaElem_info);
 	// ul.appendChild(li);
 
 	return li;
@@ -358,6 +391,7 @@ const appendToDOM = mediaElems => {
 	// Clears the innerHTML before appending happens
 	results.innerHTML = "";
 	const ul = document.getElementById("results");
+
 	console.log("Inside Append");
 
 	//iterate over all mediaElems
@@ -395,11 +429,11 @@ const fetchMedia = () => {
 	axios
 		.get("http://localhost:3000/api/images")
 		.then(response => {
-			gifs = response.data;
-			console.log(`GET list gifs`, gifs);
+			tools = response.data;
+			console.log(`GET list tools`, tools);
 			// append to DOM
 			myPics = response.data;
-			// appendToDOM(gifs); //This should be commented out
+			// appendToDOM(tools); //This should be commented out
 		})
 		.catch(error => console.error(error));
 };
@@ -418,9 +452,9 @@ fetchMedia();
 //     // [x] if document. inner HTMML is gif or tutorials or weeklys run filteredSearch with that in params
 
 // 	search_term = e.target.value;
-// 	// re-display gifs again based on the new search_term
+// 	// re-display tools again based on the new search_term
 //     // appendToDOM();
-//     filteredSearch(gifs)
+//     filteredSearch(tools)
 // });
 
 search_input.addEventListener("input", e => {
@@ -440,8 +474,8 @@ search_input.addEventListener("input", e => {
 			// alert( 'This is tutorials' );
 			filteredSearch(tutorials);
 			break;
-		case "gifs":
-			filteredSearch(gifs);
+		case "tools":
+			filteredSearch(tools);
 			break;
 		case "weeklys":
 			// alert( 'This is weeklys' );
