@@ -1,6 +1,6 @@
 <h1 align="center">
 	<br>
-	<img width="200" src="./csHintsLogo.png" alt="csHints Logo">
+	<img width="200" src="https://cdn.glitch.com/b75055dd-03c2-47e5-9f5d-7923ac439cc1%2FcsHintsLogoPink.png?v=1585570828441" alt="csHints Logo">
 	<br>
 </h1>
 
