@@ -41,25 +41,22 @@ Give examples
 A step by step series of examples that tell you how to get a development env running
 
 ```
+mkdir projects   // Do this where ever you prefer
+cd projects/csHints
 git clone https://github.com/rightbrainpapi/csHints.git
-
+cd csHints
+code .          // This command opens up VS Code Editor
 ```
 
-Say what the step will be
+Once you have the code editor open:
 
-```
-Give the example
-```
+- Navigate to left panel of VS code
+- Click file icon to open file list
+- Navigate to the index.html
+- Right click or three finger click display options
+- select Open with Live Server
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
+<!-- ## Running the tests
 
 Explain how to run the automated tests for this system
 
@@ -81,7 +78,7 @@ Give an example
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Add additional notes about how to deploy this on a live system -->
 
 ## Built With
 
