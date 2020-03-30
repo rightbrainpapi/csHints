@@ -104,7 +104,7 @@ let search_term = "";
 let tutorials = [
 	{
 		date: "2018-01-24T21:42:27.388Z",
-		image: "../img/hardCodedData/1-hackrLearnJava.png",
+		image: "./img/hardCodedData/1-hackrLearnJava.png",
 		website: "https://hackr.io/tutorials/learn-java",
 		isPublished: false,
 		price: 1,
@@ -115,7 +115,7 @@ let tutorials = [
 	},
 	{
 		date: "2018-01-24T21:42:27.388Z",
-		image: "../img/hardCodedData/2-overApi.png",
+		image: "./img/hardCodedData/2-overApi.png",
 		website: "http://overapi.com/",
 		isPublished: false,
 		price: 1,
@@ -126,7 +126,7 @@ let tutorials = [
 	},
 	{
 		date: "2018-01-24T21:42:27.388Z",
-		image: "../img/hardCodedData/0-gitFromTheInsideOut.png",
+		image: "./img/hardCodedData/0-gitFromTheInsideOut.png",
 		website: "https://maryrosecook.com/blog/post/git-from-the-inside-out",
 		isPublished: false,
 		price: 1,
@@ -137,7 +137,7 @@ let tutorials = [
 	},
 	{
 		date: "2018-01-24T21:42:27.388Z",
-		image: "../img/hardCodedData/3-w3Schools.png",
+		image: "./img/hardCodedData/3-w3Schools.png",
 		website: "https://www.w3schools.com/",
 		isPublished: false,
 		price: 1,
@@ -148,7 +148,7 @@ let tutorials = [
 	},
 	{
 		date: "2018-01-24T21:42:27.388Z",
-		image: "../img/hardCodedData/4-eggHead.png",
+		image: "./img/hardCodedData/4-eggHead.png",
 		website: "https://egghead.io/",
 		isPublished: false,
 		price: 1,
@@ -159,7 +159,7 @@ let tutorials = [
 	},
 	{
 		date: "2018-01-24T21:42:27.388Z",
-		image: "../img/hardCodedData/5-illustrated.png",
+		image: "./img/hardCodedData/5-illustrated.png",
 		website: "https://illustrated.dev/",
 		isPublished: false,
 		price: 1,
@@ -171,7 +171,7 @@ let tutorials = [
 	},
 	{
 		date: "2018-01-24T21:42:27.388Z",
-		image: "../img/hardCodedData/6-masteringMarkdown.png",
+		image: "./img/hardCodedData/6-masteringMarkdown.png",
 		website: "https://guides.github.com/features/mastering-markdown/",
 		isPublished: false,
 		price: 1,
@@ -182,7 +182,7 @@ let tutorials = [
 	},
 	{
 		date: "2018-01-24T21:42:27.388Z",
-		image: "../img/hardCodedData/7-openVim.png",
+		image: "./img/hardCodedData/7-openVim.png",
 		website: "https://www.openvim.com/tutorial.html",
 		isPublished: false,
 		price: 1,
@@ -193,7 +193,7 @@ let tutorials = [
 	},
 	{
 		date: "2018-01-24T21:42:27.388Z",
-		image: "../img/hardCodedData/8-voyager.png",
+		image: "./img/hardCodedData/8-voyager.png",
 		website: "https://voyager-docs.devdojo.com/",
 		isPublished: false,
 		price: 1,
@@ -204,7 +204,7 @@ let tutorials = [
 	},
 	{
 		date: "2018-01-24T21:42:27.388Z",
-		image: "../img/hardCodedData/9-bashAcademy.png",
+		image: "./img/hardCodedData/9-bashAcademy.png",
 		website: "https://guide.bash.academy/",
 		isPublished: false,
 		price: 1,
@@ -215,7 +215,7 @@ let tutorials = [
 	},
 	{
 		date: "2018-01-24T21:42:27.388Z",
-		image: "../img/hardCodedData/10-codeAcademy.png",
+		image: "./img/hardCodedData/10-codeAcademy.png",
 		website: "https://www.codecademy.com/",
 		isPublished: false,
 		price: 1,
@@ -228,7 +228,7 @@ let tutorials = [
 let tools = [
 	{
 		date: "2018-01-24T21:42:27.388Z",
-		image: "../img/hardCodedData/11-tools-snapSvg.png",
+		image: "./img/hardCodedData/11-tools-snapSvg.png",
 		website: "http://snapsvg.io",
 		isPublished: false,
 		price: 1,
@@ -239,7 +239,7 @@ let tools = [
 	},
 	{
 		date: "2018-01-24T21:42:27.388Z",
-		image: "../img/hardCodedData/12-tools-LearnGitBranching.png",
+		image: "./img/hardCodedData/12-tools-LearnGitBranching.png",
 		website: "https://learngitbranching.js.org/",
 		isPublished: false,
 		price: 1,
@@ -250,7 +250,7 @@ let tools = [
 	},
 	{
 		date: "2018-01-24T21:42:27.388Z",
-		image: "../img/hardCodedData/13-tools-FlexFroggy.png",
+		image: "./img/hardCodedData/13-tools-FlexFroggy.png",
 		website: "https://flexboxfroggy.com/",
 		isPublished: false,
 		price: 1,
@@ -261,7 +261,7 @@ let tools = [
 	},
 	{
 		date: "2018-01-24T21:42:27.388Z",
-		image: "../img/hardCodedData/14-tools-CodePen.png",
+		image: "./img/hardCodedData/14-tools-CodePen.png",
 		website: "https://codepen.io/",
 		isPublished: false,
 		price: 1,
@@ -272,7 +272,7 @@ let tools = [
 	},
 	{
 		date: "2018-01-24T21:42:27.388Z",
-		image: "../img/hardCodedData/15-tools-EmailDrop.png",
+		image: "./img/hardCodedData/15-tools-EmailDrop.png",
 		website: "https://www.emaildrop.io/",
 		isPublished: false,
 		price: 1,
@@ -283,7 +283,7 @@ let tools = [
 	},
 	{
 		date: "2018-01-24T21:42:27.388Z",
-		image: "../img/hardCodedData/16-tools-CodeShare.png",
+		image: "./img/hardCodedData/16-tools-CodeShare.png",
 		website: "https://codeshare.io/",
 		isPublished: false,
 		price: 1,
@@ -296,7 +296,7 @@ let tools = [
 let weeklys = [
 	{
 		date: "2018-01-24T21:42:27.388Z",
-		image: "../img/hardCodedData/20-weekly-DevChat.png",
+		image: "./img/hardCodedData/20-weekly-DevChat.png",
 		website: "https://devchat.tv/",
 		isPublished: false,
 		price: 1,
@@ -307,7 +307,7 @@ let weeklys = [
 	},
 	{
 		date: "2018-01-24T21:42:27.388Z",
-		image: "../img/hardCodedData/21-weekly-CodeNewbie.png",
+		image: "./img/hardCodedData/21-weekly-CodeNewbie.png",
 		website: "https://www.codenewbie.org/",
 		isPublished: false,
 		price: 1,
@@ -485,6 +485,7 @@ search_input.addEventListener("input", e => {
 			alert("We can  use this to default to a specific search");
 	}
 });
+filteredSearch(tutorials);
 
 ///////////////////////////////////////////////
 /////////////// Post REQUEST //////////////////
