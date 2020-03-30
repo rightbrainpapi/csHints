@@ -176,7 +176,7 @@ button:focus {
 .hero {
 	height: 600px;
 	/* background: url("/public/assets/sahara.jpg") no-repeat right top; */
-	background: url("/public/assets/heroSplash2.svg") no-repeat right top;
+	background: url("/public/assets/heroSplash.svg") no-repeat right top;
 
 	background-size: 100% 620px;
 

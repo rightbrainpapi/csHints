@@ -57,10 +57,10 @@ function changeSearchPage(e) {
 				// appendToDOM(tutorials); // Variable is the array of objects stored from the axios call.
 				filteredSearch(tutorials);
 				break;
-			case clickedItem === "gifs":
+			case clickedItem === "tools":
 				console.log("fetching tutorials");
-				// appendToDOM(gifs); // Variable is the array of objects stored from the axios call.
-				filteredSearch(gifs);
+				// appendToDOM(tools); // Variable is the array of objects stored from the axios call.
+				filteredSearch(tools);
 				break;
 			case clickedItem === "videos":
 				console.log("fetching tutorials");
@@ -179,6 +179,39 @@ let tutorials = [
 	},
 	{
 		date: "2018-01-24T21:42:27.388Z",
+		image: "../img/hardCodedData/7-openVim.png",
+		website: "https://www.openvim.com/tutorial.html",
+		isPublished: false,
+		price: 1,
+		tags: (2)[("afro", "afrochella")],
+		title: "open Vim.",
+		user: "User Name",
+		_id: "5df5093ca9644c9fd0ffdd3c"
+	},
+	{
+		date: "2018-01-24T21:42:27.388Z",
+		image: "../img/hardCodedData/8-voyager.png",
+		website: "https://voyager-docs.devdojo.com/",
+		isPublished: false,
+		price: 1,
+		tags: (2)[("afro", "afrochella")],
+		title: "Voyager",
+		user: "User Name",
+		_id: "5df5093ca9644c9fd0ffdd3c"
+	},
+	{
+		date: "2018-01-24T21:42:27.388Z",
+		image: "../img/hardCodedData/9-bashAcademy.png",
+		website: "https://guide.bash.academy/",
+		isPublished: false,
+		price: 1,
+		tags: (2)[("afro", "afrochella")],
+		title: "Bash Academy",
+		user: "User Name",
+		_id: "5df5093ca9644c9fd0ffdd3c"
+	},
+	{
+		date: "2018-01-24T21:42:27.388Z",
 		image: "../img/hardCodedData/10-codeAcademy.png",
 		website: "https://www.codecademy.com/",
 		isPublished: false,
@@ -189,7 +222,18 @@ let tutorials = [
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	}
 ];
-let gifs = [
+let tools = [
+	{
+		date: "2018-01-24T21:42:27.388Z",
+		image: "../img/hardCodedData/7-snapSvg.png",
+		website: "http://snapsvg.io",
+		isPublished: false,
+		price: 1,
+		tags: (2)[("afro", "afrochella")],
+		title: "snapsvg",
+		user: "User Name",
+		_id: "5df5093ca9644c9fd0ffdd3c"
+	},
 	{
 		title: "Some Name",
 		user: "User Name",
