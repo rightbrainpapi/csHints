@@ -84,21 +84,9 @@ Add additional notes about how to deploy this on a live system
 - [Resources #1](https://github.com/sdmg15/Best-websites-a-programmer-should-visit/blob/master/README.md#tutorials) - Data Sourced
 - [Resources #2](https://github.com/Michael0x2a/curated-programming-resources/blob/master/resources.md#where-do-i-start) - Data Sourced
 
-  <!-- - [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used -->
-  <!-- - [Maven](https://maven.apache.org/) - Dependency Management -->
-  <!-- - [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds -->
-
 ## Contributing
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
-<!-- ## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). -->
-
-<!-- ## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details -->
 
 ## Copyright and License
 
