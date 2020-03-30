@@ -81,8 +81,8 @@ Add additional notes about how to deploy this on a live system
 - [Express.js](https://expressjs.com/)-Express
 - [Node.js](https://nodejs.org/en/)-Node.js
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - JavaScript
-- [Resources](https://github.com/sdmg15/Best-websites-a-programmer-should-visit/blob/master/README.md#tutorials) - Data Sourced
-- [Resources](https://github.com/Michael0x2a/curated-programming-resources/blob/master/resources.md#where-do-i-start) - Data Sourced
+- [Resources #1](https://github.com/sdmg15/Best-websites-a-programmer-should-visit/blob/master/README.md#tutorials) - Data Sourced
+- [Resources #2](https://github.com/Michael0x2a/curated-programming-resources/blob/master/resources.md#where-do-i-start) - Data Sourced
 
   <!-- - [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used -->
   <!-- - [Maven](https://maven.apache.org/) - Dependency Management -->
