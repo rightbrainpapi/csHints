@@ -491,6 +491,37 @@ function filteredSearch(mediaElemsToFilter) {
 
 // fetchMedia();
 
+///////////////////
+///////////////////
+// Shuffle the data
+///////////////////
+///////////////////
+
+function shuffle(arra1) {
+	var ctr = arra1.length,
+		temp,
+		index;
+
+	// While there are elements in the array
+	while (ctr > 0) {
+		// Pick a random index
+		index = Math.floor(Math.random() * ctr);
+		// Decrease ctr by 1
+		ctr--;
+		// And swap the last element with it
+		temp = arra1[ctr];
+		arra1[ctr] = arra1[index];
+		arra1[index] = temp;
+	}
+	return arra1;
+}
+
+//////////////////////////////
+//////////////////////////////
+// End of Shuffling the data
+//////////////////////////////
+//////////////////////////////
+
 ////////////////////////////////////////////////
 ////////////////////////////////////////////////
 // Filtering the Data if a user types something
@@ -539,7 +570,11 @@ search_input.addEventListener("input", e => {
 	}
 });
 console.log("calling all resources");
-filteredSearch(allResources);
+// console.log(shuffle(myArray));
+// var newarr = shuffle(allResources);
+// console.log(newarr);
+
+filteredSearch(shuffle(allResources));
 
 ///////////////////////////////////////////////
 /////////////// Post REQUEST //////////////////
