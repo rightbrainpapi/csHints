@@ -117,7 +117,7 @@ let tutorials = [
 		tags: (2)[("afro", "afrochella")],
 		title: "hackr.io",
 		description:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque corporis, dicta laudantium exercitationem repellendus soluta totamratione a modi necessitatibus.",
+			"test description all the way.... This is where the description for each resource willexist",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -130,7 +130,7 @@ let tutorials = [
 		tags: (2)[("afro", "afrochella")],
 		title: "overapi",
 		description:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque corporis, dicta laudantium exercitationem repellendus soluta totamratione a modi necessitatibus.",
+			"test description all the way.... This is where the description for each resource willexist",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -143,7 +143,7 @@ let tutorials = [
 		tags: (2)[("afro", "afrochella")],
 		title: "maryrosecook",
 		description:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque corporis, dicta laudantium exercitationem repellendus soluta totamratione a modi necessitatibus.",
+			"test description all the way.... This is where the description for each resource willexist",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -156,7 +156,7 @@ let tutorials = [
 		tags: (2)[("afro", "afrochella")],
 		title: "w3schools",
 		description:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque corporis, dicta laudantium exercitationem repellendus soluta totamratione a modi necessitatibus.",
+			"test description all the way.... This is where the description for each resource willexist",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -169,7 +169,7 @@ let tutorials = [
 		tags: (2)[("afro", "afrochella")],
 		title: "egghead",
 		description:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque corporis, dicta laudantium exercitationem repellendus soluta totamratione a modi necessitatibus.",
+			"test description all the way.... This is where the description for each resource willexist",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -182,7 +182,7 @@ let tutorials = [
 		tags: (2)[("afro", "afrochella")],
 		title: "illustrated.dev",
 		description:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque corporis, dicta laudantium exercitationem repellendus soluta totamratione a modi necessitatibus.",
+			"test description all the way.... This is where the description for each resource willexist",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -195,7 +195,7 @@ let tutorials = [
 		tags: (2)[("afro", "afrochella")],
 		title: "Mastering Markdown",
 		description:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque corporis, dicta laudantium exercitationem repellendus soluta totamratione a modi necessitatibus.",
+			"test description all the way.... This is where the description for each resource willexist",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -208,7 +208,7 @@ let tutorials = [
 		tags: (2)[("afro", "afrochella")],
 		title: "open Vim.",
 		description:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque corporis, dicta laudantium exercitationem repellendus soluta totamratione a modi necessitatibus.",
+			"test description all the way.... This is where the description for each resource willexist",
 
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
@@ -222,7 +222,7 @@ let tutorials = [
 		tags: (2)[("afro", "afrochella")],
 		title: "Voyager",
 		description:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque corporis, dicta laudantium exercitationem repellendus soluta totamratione a modi necessitatibus.",
+			"test description all the way.... This is where the description for each resource willexist",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -235,7 +235,7 @@ let tutorials = [
 		tags: (2)[("afro", "afrochella")],
 		title: "Bash Academy",
 		description:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque corporis, dicta laudantium exercitationem repellendus soluta totamratione a modi necessitatibus.",
+			"test description all the way.... This is where the description for each resource willexist",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -248,7 +248,7 @@ let tutorials = [
 		tags: (2)[("afro", "afrochella")],
 		title: "codeacdemy",
 		description:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque corporis, dicta laudantium exercitationem repellendus soluta totamratione a modi necessitatibus.",
+			"test description all the way.... This is where the description for each resource willexist",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	}
@@ -263,7 +263,7 @@ let tools = [
 		tags: (2)[("afro", "afrochella")],
 		title: "snapsvg",
 		description:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque corporis, dicta laudantium exercitationem repellendus soluta totamratione a modi necessitatibus.",
+			"test description all the way.... This is where the description for each resource willexist",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -276,7 +276,7 @@ let tools = [
 		tags: (2)[("afro", "afrochella")],
 		title: "Git Branching",
 		description:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque corporis, dicta laudantium exercitationem repellendus soluta totamratione a modi necessitatibus.",
+			"test description all the way.... This is where the description for each resource willexist",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -289,7 +289,7 @@ let tools = [
 		tags: (2)[("afro", "afrochella")],
 		title: "FlexFroggy",
 		description:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque corporis, dicta laudantium exercitationem repellendus soluta totamratione a modi necessitatibus.",
+			"test description all the way.... This is where the description for each resource willexist",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -302,7 +302,7 @@ let tools = [
 		tags: (2)[("afro", "afrochella")],
 		title: "CodePen",
 		description:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque corporis, dicta laudantium exercitationem repellendus soluta totamratione a modi necessitatibus.",
+			"test description all the way.... This is where the description for each resource willexist",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -315,7 +315,7 @@ let tools = [
 		tags: (2)[("afro", "afrochella")],
 		title: "EmailDrop",
 		description:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque corporis, dicta laudantium exercitationem repellendus soluta totamratione a modi necessitatibus.",
+			"test description all the way.... This is where the description for each resource willexist",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -328,7 +328,7 @@ let tools = [
 		tags: (2)[("afro", "afrochella")],
 		title: "CodeShare",
 		description:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque corporis, dicta laudantium exercitationem repellendus soluta totamratione a modi necessitatibus.",
+			"test description all the way.... This is where the description for each resource willexist",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	}
@@ -343,7 +343,7 @@ let weeklys = [
 		tags: (2)[("afro", "afrochella")],
 		title: "DevChat.tv",
 		description:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque corporis, dicta laudantium exercitationem repellendus soluta totamratione a modi necessitatibus.",
+			"test description all the way.... This is where the description for each resource willexist",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -356,7 +356,7 @@ let weeklys = [
 		tags: (2)[("afro", "afrochella")],
 		title: "CodeNewbie",
 		description:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque corporis, dicta laudantium exercitationem repellendus soluta totamratione a modi necessitatibus.",
+			"test description all the way.... This is where the description for each resource willexist",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	}
@@ -634,7 +634,10 @@ function showAboutPage(e) {
 	// e.target refers to the parent. The current target refers to that actual clicked element
 	//if results is not equal to the name of the image
 	if (e.target !== e.currentTarget) {
-		var clickedItem = e.target.name;
+		var clickedItem = e.target;
+		var resName = clickedItem.name;
+		var resSrc = clickedItem.src;
+		var resDes = clickedItem.alt;
 		// console.log(`This is the name that was clicked:`, clickedItem);
 
 		// document.getElementById('searchPage').innerHTML;
@@ -644,9 +647,18 @@ function showAboutPage(e) {
 
 		// document.getElementById("aboutPageContainer").style.display = "block";
 		document.getElementById("aboutPageContainer").style.display = "flex";
-		document.getElementById(
-			"aboutPageTitle"
-		).textContent = clickedItem.toUpperCase();
+
+		///////////////////////////
+		// Adding Approproate Data
+		///////////////////////////
+		// Adding Title
+		document.getElementById("aboutPageTitle").textContent = "About";
+		// Adding Name
+		document.getElementById("resName").textContent = resName.toUpperCase();
+		// Adding Source for image
+		document.getElementById("resImg").src = resSrc;
+		// Adding description
+		document.getElementById("resDes").textContent = resDes;
 
 		// // injectSearchedContent
 		// // This function delevers the content associated with the page based on whats in the search bar

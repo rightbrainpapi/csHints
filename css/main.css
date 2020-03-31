@@ -324,7 +324,7 @@ button:focus {
 
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	/* justify-content: center; */
 	display: none;
 }
 
@@ -349,13 +349,25 @@ button:focus {
 	color: salmon;
 }
 #resContainer {
-	/* display: flex; */
+	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	align-self: center;
-	justify-self: center;
+	/* justify-self: center; */
 	background: red;
-	width: 15em;
+	width: 30em;
+}
+
+/* #resDes{
+
+} */
+
+#resDetailsContainer {
+	align-self: center;
+	justify-self: center;
+	margin-top: 10px;
+	width: 80%;
+	background-color: green;
 }
 
 /* ////////////// */
