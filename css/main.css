@@ -321,20 +321,47 @@ button:focus {
 	/* width: 200px; */
 	/* display:block; */
 	/* margin: 20px; */
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	display: none;
 }
-#aboutPage {
+
+#mainRenderSection {
+	/* background-color: green; */
+	/* display: flex; */
+	justify-content: center;
+}
+
+/* ////////////// */
+/* ////////////// */
+/* ////////////// */
+/* About Section */
+/* ////////////// */
+/* ////////////// */
+/* ////////////// */
+#aboutPageTitle {
 	/* color: chartreuse; */
 	font-family: "Frank Ruhl Libre", serif;
 	font-size: 30px;
 	padding-bottom: 20px;
 	color: salmon;
 }
+#resContainer {
+	/* display: flex; */
+	justify-content: center;
+	flex-direction: column;
+	align-self: center;
+	justify-self: center;
+	background: red;
+	width: 15em;
+}
 
 /* ////////////// */
 /* ////////////// */
 /* ////////////// */
-/* masonry */
+/* masonry Section*/
 /* ////////////// */
 /* ////////////// */
 /* ////////////// */

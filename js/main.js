@@ -462,7 +462,7 @@ function filteredSearch(mediaElemsToFilter) {
 	var filteredMediaElems = mediaElemsToFilter.filter(function(e) {
 		return e.title.toLowerCase().includes(search_term.toLowerCase());
 	});
-	console.log(filteredMediaElems);
+	// console.log(filteredMediaElems);
 	//Appending the filltered MediaElems to the dom
 	appendToDOM(filteredMediaElems);
 }
@@ -642,9 +642,11 @@ function showAboutPage(e) {
 		document.getElementById("searchPageContainer").style.display = "none";
 		document.getElementById("masonry").style.display = "none";
 
-		document.getElementById("aboutPageContainer").style.display = "block";
-		document.getElementById("aboutPage").textContent =
-			"About - " + clickedItem.toUpperCase();
+		// document.getElementById("aboutPageContainer").style.display = "block";
+		document.getElementById("aboutPageContainer").style.display = "flex";
+		document.getElementById(
+			"aboutPageTitle"
+		).textContent = clickedItem.toUpperCase();
 
 		// // injectSearchedContent
 		// // This function delevers the content associated with the page based on whats in the search bar
