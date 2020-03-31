@@ -690,3 +690,16 @@ function showAboutPage(e) {
 	}
 	e.stopPropagation();
 }
+
+// about resource options.
+
+var theAboutButton = document.getElementById("resButton");
+// var theParent = document.getElementById("grandParentContainer");
+theAboutButton.addEventListener("click", aboutOptions, false);
+
+function aboutOptions(e) {
+	console.log(e.target);
+	console.log(e.currentTarget);
+
+	e.stopPropagation();
+}

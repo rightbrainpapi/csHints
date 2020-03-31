@@ -389,29 +389,31 @@ button:focus {
 /* Child of resContainer */
 #resButton {
 	/* for self */
-	width: 2em;
+	width: 5em;
 	background-color: purple;
-	/* margin-right: 10px; */
+	margin: 0 10px 10px 0;
 	align-self: flex-end;
+	border-radius: 20px;
 
 	/* for children */
 	display: flex;
 	/* justify-content: center; */
 	/* align-content: center; */
 	align-items: center;
-	flex-direction: column;
+	/* flex-direction: column; */
+	justify-content: space-evenly;
+	color: salmon;
 }
 
-.dot {
+/* .dot {
 	margin: 2px;
-	/* align-self: flex-end; */
 	width: 10px;
 	height: 10px;
 	background: salmon;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
-}
+} */
 /* ////////////// */
 /* ////////////// */
 /* ////////////// */
