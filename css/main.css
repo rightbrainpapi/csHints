@@ -313,6 +313,24 @@ button:focus {
 	color: salmon;
 }
 
+#aboutPageContainer {
+	width: 100%;
+	/* background-color: black; */
+	/* display: flex; */
+	/* justify-content: center; */
+	/* width: 200px; */
+	/* display:block; */
+	/* margin: 20px; */
+	display: none;
+}
+#aboutPage {
+	/* color: chartreuse; */
+	font-family: "Frank Ruhl Libre", serif;
+	font-size: 30px;
+	padding-bottom: 20px;
+	color: salmon;
+}
+
 /* ////////////// */
 /* ////////////// */
 /* ////////////// */

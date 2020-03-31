@@ -35,6 +35,12 @@ var theParent = document.getElementById("searchTabContainer");
 theParent.addEventListener("click", changeSearchPage, false);
 
 function changeSearchPage(e) {
+	// hide the ABOUT PAGE
+	document.getElementById("aboutPageContainer").style.display = "none";
+
+	// show the MASONARY
+	document.getElementById("masonry").style.display = "block";
+
 	// e.target refers to the parent. The current target refers to that actual clicked element
 	if (e.target !== e.currentTarget) {
 		var clickedItem = e.target.id;
@@ -72,7 +78,7 @@ function changeSearchPage(e) {
 				alert("We can  use this to default to a specific search");
 		}
 
-		document.getElementById("searchPageContainer1").style.display = "block";
+		// document.getElementById("searchPageContainer1").style.display = "block";
 	}
 	e.stopPropagation();
 }
@@ -110,6 +116,8 @@ let tutorials = [
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
 		title: "hackr.io",
+		description:
+			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque corporis, dicta laudantium exercitationem repellendus soluta totamratione a modi necessitatibus.",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -121,6 +129,8 @@ let tutorials = [
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
 		title: "overapi",
+		description:
+			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque corporis, dicta laudantium exercitationem repellendus soluta totamratione a modi necessitatibus.",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -132,6 +142,8 @@ let tutorials = [
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
 		title: "maryrosecook",
+		description:
+			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque corporis, dicta laudantium exercitationem repellendus soluta totamratione a modi necessitatibus.",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -143,6 +155,8 @@ let tutorials = [
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
 		title: "w3schools",
+		description:
+			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque corporis, dicta laudantium exercitationem repellendus soluta totamratione a modi necessitatibus.",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -154,6 +168,8 @@ let tutorials = [
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
 		title: "egghead",
+		description:
+			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque corporis, dicta laudantium exercitationem repellendus soluta totamratione a modi necessitatibus.",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -165,7 +181,8 @@ let tutorials = [
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
 		title: "illustrated.dev",
-		description: "",
+		description:
+			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque corporis, dicta laudantium exercitationem repellendus soluta totamratione a modi necessitatibus.",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -177,6 +194,8 @@ let tutorials = [
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
 		title: "Mastering Markdown",
+		description:
+			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque corporis, dicta laudantium exercitationem repellendus soluta totamratione a modi necessitatibus.",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -188,6 +207,9 @@ let tutorials = [
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
 		title: "open Vim.",
+		description:
+			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque corporis, dicta laudantium exercitationem repellendus soluta totamratione a modi necessitatibus.",
+
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -199,6 +221,8 @@ let tutorials = [
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
 		title: "Voyager",
+		description:
+			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque corporis, dicta laudantium exercitationem repellendus soluta totamratione a modi necessitatibus.",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -210,6 +234,8 @@ let tutorials = [
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
 		title: "Bash Academy",
+		description:
+			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque corporis, dicta laudantium exercitationem repellendus soluta totamratione a modi necessitatibus.",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -221,6 +247,8 @@ let tutorials = [
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
 		title: "codeacdemy",
+		description:
+			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque corporis, dicta laudantium exercitationem repellendus soluta totamratione a modi necessitatibus.",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	}
@@ -234,6 +262,8 @@ let tools = [
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
 		title: "snapsvg",
+		description:
+			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque corporis, dicta laudantium exercitationem repellendus soluta totamratione a modi necessitatibus.",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -245,6 +275,8 @@ let tools = [
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
 		title: "Git Branching",
+		description:
+			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque corporis, dicta laudantium exercitationem repellendus soluta totamratione a modi necessitatibus.",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -256,6 +288,8 @@ let tools = [
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
 		title: "FlexFroggy",
+		description:
+			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque corporis, dicta laudantium exercitationem repellendus soluta totamratione a modi necessitatibus.",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -267,6 +301,8 @@ let tools = [
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
 		title: "CodePen",
+		description:
+			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque corporis, dicta laudantium exercitationem repellendus soluta totamratione a modi necessitatibus.",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -278,6 +314,8 @@ let tools = [
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
 		title: "EmailDrop",
+		description:
+			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque corporis, dicta laudantium exercitationem repellendus soluta totamratione a modi necessitatibus.",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -289,6 +327,8 @@ let tools = [
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
 		title: "CodeShare",
+		description:
+			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque corporis, dicta laudantium exercitationem repellendus soluta totamratione a modi necessitatibus.",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	}
@@ -302,6 +342,8 @@ let weeklys = [
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
 		title: "DevChat.tv",
+		description:
+			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque corporis, dicta laudantium exercitationem repellendus soluta totamratione a modi necessitatibus.",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -313,6 +355,8 @@ let weeklys = [
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
 		title: "CodeNewbie",
+		description:
+			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque corporis, dicta laudantium exercitationem repellendus soluta totamratione a modi necessitatibus.",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	}
@@ -349,8 +393,13 @@ const createLi = mediaElem => {
 	// a.title = "This is Link";
 
 	// Set the href property.
-	var webLink = (mediaElem_src.src = mediaElem.website);
-	a.href = webLink;
+	// var webLink = (mediaElem_src.src = mediaElem.website);
+	// a.href = webLink;
+
+	// Set the href property.
+	// var webLink = (mediaElem_src.src =
+	// 	"file:///Users/d.ahuemaen/Desktop/csHints/about.html");
+	// a.href = webLink;
 
 	// Append the anchor element to the body.
 	// document.body.appendChild(a);
@@ -359,9 +408,11 @@ const createLi = mediaElem => {
 	li.classList.add("mediaElem-item");
 	// mediaElem_info.classList.add("mediaElem-info");
 
-	//adding imag and src
+	//adding imag id, class, src, name, and src
 	mediaElem_image.classList.add("mediaElem-image");
 	mediaElem_image.src = mediaElem.image;
+	mediaElem_image.name = mediaElem.title;
+	mediaElem_image.alt = mediaElem.description;
 
 	// console.log(now);
 
@@ -526,3 +577,64 @@ registerNewUser();
 /////////////////////////////
 
 // document.querySelector('.inside').style.display = "active";
+
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+////////////////// Search Tab //////////////////
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+
+// var elementsArray = document.getElementsByClassName("tabName");
+
+// var theParent = document.getElementById("searchTabContainer");
+var theParent1 = document.getElementById("results");
+// var theParent = document.getElementById("grandParentContainer");
+theParent1.addEventListener("click", showAboutPage, false);
+
+function showAboutPage(e) {
+	console.log(e.target);
+	// e.target refers to the parent. The current target refers to that actual clicked element
+	//if results is not equal to the name of the image
+	if (e.target !== e.currentTarget) {
+		var clickedItem = e.target.name;
+		// console.log(`This is the name that was clicked:`, clickedItem);
+
+		// document.getElementById('searchPage').innerHTML;
+		//Dont show the search title and the list of all items
+		document.getElementById("searchPageContainer").style.display = "none";
+		document.getElementById("masonry").style.display = "none";
+
+		document.getElementById("aboutPageContainer").style.display = "block";
+		document.getElementById("aboutPage").textContent =
+			"About - " + clickedItem.toUpperCase();
+
+		// // injectSearchedContent
+		// // This function delevers the content associated with the page based on whats in the search bar
+		// // if nothing is in the search bar it displays the entire data base.
+		// ////////////////////////////////////////////////////////////////////
+
+		// // [] Dynamically evaluate the cases whether tutorials tools or weeklys.
+		// switch (true) {
+		// 	case clickedItem === "tutorials":
+		// 		console.log("fetching tutorials");
+		// 		// appendToDOM(tutorials); // Variable is the array of objects stored from the axios call.
+		// 		filteredSearch(tutorials);
+		// 		break;
+		// 	case clickedItem === "tools":
+		// 		console.log("fetching tutorials");
+		// 		// appendToDOM(tools); // Variable is the array of objects stored from the axios call.
+		// 		filteredSearch(tools);
+		// 		break;
+		// 	case clickedItem === "weeklys":
+		// 		console.log("fetching tutorials");
+		// 		// appendToDOM(weeklys); // Variable is the array of objects stored from the axios call.
+		// 		filteredSearch(weeklys);
+		// 		break;
+		// 	default:
+		// 		alert("We can  use this to default to a specific search");
+		// }
+
+		// document.getElementById("searchPageContainer1").style.display = "block";
+	}
+	e.stopPropagation();
+}
