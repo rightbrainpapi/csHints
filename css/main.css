@@ -362,14 +362,56 @@ button:focus {
 
 } */
 
+/* Child of resContainer */
 #resDetailsContainer {
+	/* for self */
 	align-self: center;
 	justify-self: center;
-	margin-top: 10px;
-	width: 80%;
+	margin: 10px 0 10px 0;
+	width: 90%;
 	background-color: green;
+
+	/* for children */
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 }
 
+.resDetailsChlidren {
+	/* for self */
+	align-self: center;
+	justify-self: center;
+	width: 80%;
+	background-color: blue;
+	/*color: green; */
+}
+
+/* Child of resContainer */
+#resButton {
+	/* for self */
+	width: 2em;
+	background-color: purple;
+	/* margin-right: 10px; */
+	align-self: flex-end;
+
+	/* for children */
+	display: flex;
+	/* justify-content: center; */
+	/* align-content: center; */
+	align-items: center;
+	flex-direction: column;
+}
+
+.dot {
+	margin: 2px;
+	/* align-self: flex-end; */
+	width: 10px;
+	height: 10px;
+	background: salmon;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
 /* ////////////// */
 /* ////////////// */
 /* ////////////// */
