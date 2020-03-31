@@ -362,7 +362,7 @@ let weeklys = [
 	}
 ];
 let myPics = [];
-
+let allResources = tutorials.concat(tools).concat(weeklys);
 /////////////////////////////////////
 ////////////////////////////////////
 // Create the Li function with 1 pic
@@ -533,10 +533,13 @@ search_input.addEventListener("input", e => {
 			filteredSearch(weeklys);
 			break;
 		default:
-			alert("We can  use this to default to a specific search");
+			// alert("We can  use this to default to a specific search");
+			// let allResources = tutorials.concat(tools).concat(weeklys);
+			filteredSearch(allResources);
 	}
 });
-filteredSearch(tutorials);
+console.log("calling all resources");
+filteredSearch(allResources);
 
 ///////////////////////////////////////////////
 /////////////// Post REQUEST //////////////////
