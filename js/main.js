@@ -595,22 +595,26 @@ filteredSearch(shuffle(allResources));
 
 function registerNewUser() {
 	document.getElementById("submit").addEventListener("click", async function() {
-		console.log("This is working");
-		try {
-			const res = await axios.post("http://localhost:3000/api/users", {
-				name: "title11ds2345",
-				email: "title11ds2345@gmail.com",
-				password: "1234s9"
-			});
-			console.log(res.data);
-			// [] close the modal box
-			// [] reder the profile in the tab
-			// document.querySelector('.nav').classList.toggle("active");
+		alert(
+			"NOTE: We are currently working to integrate our user registration and login system. In the meanwhile feel free to search through our list of resources."
+		);
 
-			closeFunction();
-		} catch (err) {
-			console.error(err, err.response);
-		}
+		// console.log("This is working");
+		// try {
+		// 	const res = await axios.post("http://localhost:3000/api/users", {
+		// 		name: "title11ds2345",
+		// 		email: "title11ds2345@gmail.com",
+		// 		password: "1234s9"
+		// 	});
+		// 	console.log(res.data);
+		// 	// [] close the modal box
+		// 	// [] reder the profile in the tab
+		// 	// document.querySelector('.nav').classList.toggle("active");
+
+		// 	closeFunction();
+		// } catch (err) {
+		// 	console.error(err, err.response);
+		// }
 	});
 }
 
