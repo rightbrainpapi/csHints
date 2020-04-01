@@ -425,9 +425,8 @@ const createLi = mediaElem => {
 
 	mediaElem_title.innerText = mediaElem.title;
 	// mediaElem_title.classList.add('mediaElem-title');
-	li.appendChild(mediaElem_div)
-		.appendChild(a)
-		.appendChild(mediaElem_image);
+	li.appendChild(mediaElem_div).appendChild(mediaElem_image);
+	// li.appendChild(mediaElem_div).appendChild(a);
 	// li.appendChild(mediaElem_div).appendChild(mediaElem_title);
 	// li.appendChild(mediaElem_title).appendChild(mediaElem_image);
 	// li.appendChild(mediaElem_title);
