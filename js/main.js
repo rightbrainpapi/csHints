@@ -8,7 +8,7 @@ console.log("We are here");
 
 document.getElementById("buttonTrig").addEventListener("click", function() {
 	alert(
-		"NOTE: We are currently working to integrate our user registration and login system. In the meanwhile feel free to search through our list of resources."
+		"NOTE: We are currently working to integrate our user registration and login system. In the meanwhile, feel free to search through our list of resources."
 	);
 
 	document.querySelector(".bg-modal").style.display = "flex";
