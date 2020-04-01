@@ -375,6 +375,7 @@ const createLi = mediaElem => {
 	const mediaElem_image = document.createElement("img");
 	const mediaElem_title = document.createElement("li");
 	const mediaElem_src = document.createElement("a");
+	const mediaElem_Hidden = document.createElement("div");
 	// const mediaElem_info = document.createElement("div");
 	// const mediaElem_population = document.createElement('h2');
 	// const mediaElem_popupation_text = document.createElement('h5');
@@ -410,9 +411,15 @@ const createLi = mediaElem => {
 
 	//adding imag id, class, src, name, and src
 	mediaElem_image.classList.add("mediaElem-image");
+
 	mediaElem_image.src = mediaElem.image;
-	mediaElem_image.name = mediaElem.title;
+	mediaElem_image.id = mediaElem.title;
 	mediaElem_image.alt = mediaElem.description;
+	mediaElem_image.name = mediaElem.website;
+	// This is the link that will be used on about page
+	// mediaElem_Hidden.name = mediaElem.website;
+
+	// mediaElem_image.name = mediaElem.website;
 
 	// console.log(now);
 
@@ -421,12 +428,12 @@ const createLi = mediaElem => {
 	li.appendChild(mediaElem_div)
 		.appendChild(a)
 		.appendChild(mediaElem_image);
-
 	// li.appendChild(mediaElem_div).appendChild(mediaElem_title);
 	// li.appendChild(mediaElem_title).appendChild(mediaElem_image);
 	// li.appendChild(mediaElem_title);
 	// li.appendChild(mediaElem_info);
 	// ul.appendChild(li);
+	// console.log(li);
 
 	return li;
 };
@@ -631,13 +638,17 @@ theParent1.addEventListener("click", showAboutPage, false);
 
 function showAboutPage(e) {
 	console.log(e.target);
+
 	// e.target refers to the parent. The current target refers to that actual clicked element
 	//if results is not equal to the name of the image
 	if (e.target !== e.currentTarget) {
+		console.log(e.target);
 		var clickedItem = e.target;
-		var resName = clickedItem.name;
+		var resName = clickedItem.id;
+		var resWebsite = clickedItem.name;
 		var resSrc = clickedItem.src;
 		var resDes = clickedItem.alt;
+		var resLink = clickedItem.website;
 		// console.log(`This is the name that was clicked:`, clickedItem);
 
 		// document.getElementById('searchPage').innerHTML;
@@ -659,6 +670,9 @@ function showAboutPage(e) {
 		document.getElementById("resImg").src = resSrc;
 		// Adding description
 		document.getElementById("resDes").textContent = resDes;
+		// adding
+		document.getElementById("goto").name = resWebsite;
+		// console.log(resWebsite.name);
 
 		// // injectSearchedContent
 		// // This function delevers the content associated with the page based on whats in the search bar
@@ -700,6 +714,35 @@ theAboutButton.addEventListener("click", aboutOptions, false);
 function aboutOptions(e) {
 	console.log(e.target);
 	console.log(e.currentTarget);
+	var currentWebsite = document.getElementById("goto").name;
+
+	// console.log(document.getElementById("goto").name);
+
+	// // [] Dynamically evaluate the cases whether tutorials tools or weeklys.
+	// switch (true) {
+	// 	case clickedItem === "tutorials":
+	// 		console.log("fetching tutorials");
+	// 		// appendToDOM(tutorials); // Variable is the array of objects stored from the axios call.
+	// 		filteredSearch(tutorials);
+	// 		break;
+	// 	case clickedItem === "tools":
+	// 		console.log("fetching tutorials");
+	// 		// appendToDOM(tools); // Variable is the array of objects stored from the axios call.
+	// 		filteredSearch(tools);
+	// 		break;
+	// 	case clickedItem === "weeklys":
+	// 		console.log("fetching tutorials");
+	// 		// appendToDOM(weeklys); // Variable is the array of objects stored from the axios call.
+	// 		filteredSearch(weeklys);
+	// 		break;
+	// 	default:
+	// 		alert("We can  use this to default to a specific search");
+	// }
+
+	if (e.target.id == "goToResource") {
+		var win = window.open(currentWebsite);
+		win.focus();
+	}
 
 	e.stopPropagation();
 }
