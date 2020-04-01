@@ -354,7 +354,7 @@ button:focus {
 	flex-direction: column;
 	align-self: center;
 	/* justify-self: center; */
-	background: red;
+	/* background: red; */
 	width: 30em;
 }
 
@@ -369,7 +369,7 @@ button:focus {
 	justify-self: center;
 	margin: 10px 0 10px 0;
 	width: 90%;
-	background-color: green;
+	/* background-color: green; */
 
 	/* for children */
 	display: flex;
@@ -382,8 +382,9 @@ button:focus {
 	align-self: center;
 	justify-self: center;
 	width: 80%;
-	background-color: blue;
+	/* background-color: blue; */
 	/*color: green; */
+	/* for children */
 }
 
 /* Child of resContainer */

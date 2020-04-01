@@ -117,7 +117,7 @@ let tutorials = [
 		tags: (2)[("afro", "afrochella")],
 		title: "hackr.io",
 		description:
-			"test description all the way.... This is where the description for each resource willexist",
+			"test description all the way.... This is where the description for each resource will exist",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -130,7 +130,7 @@ let tutorials = [
 		tags: (2)[("afro", "afrochella")],
 		title: "overapi",
 		description:
-			"test description all the way.... This is where the description for each resource willexist",
+			"test description all the way.... This is where the description for each resource will exist",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -143,7 +143,7 @@ let tutorials = [
 		tags: (2)[("afro", "afrochella")],
 		title: "maryrosecook",
 		description:
-			"test description all the way.... This is where the description for each resource willexist",
+			"test description all the way.... This is where the description for each resource will exist",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -156,7 +156,7 @@ let tutorials = [
 		tags: (2)[("afro", "afrochella")],
 		title: "w3schools",
 		description:
-			"test description all the way.... This is where the description for each resource willexist",
+			"test description all the way.... This is where the description for each resource will exist",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -169,7 +169,7 @@ let tutorials = [
 		tags: (2)[("afro", "afrochella")],
 		title: "egghead",
 		description:
-			"test description all the way.... This is where the description for each resource willexist",
+			"test description all the way.... This is where the description for each resource will exist",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -182,7 +182,7 @@ let tutorials = [
 		tags: (2)[("afro", "afrochella")],
 		title: "illustrated.dev",
 		description:
-			"test description all the way.... This is where the description for each resource willexist",
+			"test description all the way.... This is where the description for each resource will exist",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -195,7 +195,7 @@ let tutorials = [
 		tags: (2)[("afro", "afrochella")],
 		title: "Mastering Markdown",
 		description:
-			"test description all the way.... This is where the description for each resource willexist",
+			"test description all the way.... This is where the description for each resource will exist",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -208,7 +208,7 @@ let tutorials = [
 		tags: (2)[("afro", "afrochella")],
 		title: "open Vim.",
 		description:
-			"test description all the way.... This is where the description for each resource willexist",
+			"test description all the way.... This is where the description for each resource will exist",
 
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
@@ -222,7 +222,7 @@ let tutorials = [
 		tags: (2)[("afro", "afrochella")],
 		title: "Voyager",
 		description:
-			"test description all the way.... This is where the description for each resource willexist",
+			"test description all the way.... This is where the description for each resource will exist",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -235,7 +235,7 @@ let tutorials = [
 		tags: (2)[("afro", "afrochella")],
 		title: "Bash Academy",
 		description:
-			"test description all the way.... This is where the description for each resource willexist",
+			"test description all the way.... This is where the description for each resource will exist",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -248,7 +248,7 @@ let tutorials = [
 		tags: (2)[("afro", "afrochella")],
 		title: "codeacdemy",
 		description:
-			"test description all the way.... This is where the description for each resource willexist",
+			"test description all the way.... This is where the description for each resource will exist",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	}
@@ -263,7 +263,7 @@ let tools = [
 		tags: (2)[("afro", "afrochella")],
 		title: "snapsvg",
 		description:
-			"test description all the way.... This is where the description for each resource willexist",
+			"test description all the way.... This is where the description for each resource will exist",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -276,7 +276,7 @@ let tools = [
 		tags: (2)[("afro", "afrochella")],
 		title: "Git Branching",
 		description:
-			"test description all the way.... This is where the description for each resource willexist",
+			"test description all the way.... This is where the description for each resource will exist",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -289,7 +289,7 @@ let tools = [
 		tags: (2)[("afro", "afrochella")],
 		title: "FlexFroggy",
 		description:
-			"test description all the way.... This is where the description for each resource willexist",
+			"test description all the way.... This is where the description for each resource will exist",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -302,7 +302,7 @@ let tools = [
 		tags: (2)[("afro", "afrochella")],
 		title: "CodePen",
 		description:
-			"test description all the way.... This is where the description for each resource willexist",
+			"test description all the way.... This is where the description for each resource will exist",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -315,7 +315,7 @@ let tools = [
 		tags: (2)[("afro", "afrochella")],
 		title: "EmailDrop",
 		description:
-			"test description all the way.... This is where the description for each resource willexist",
+			"test description all the way.... This is where the description for each resource will exist",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -328,7 +328,7 @@ let tools = [
 		tags: (2)[("afro", "afrochella")],
 		title: "CodeShare",
 		description:
-			"test description all the way.... This is where the description for each resource willexist",
+			"test description all the way.... This is where the description for each resource will exist",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	}
@@ -343,7 +343,7 @@ let weeklys = [
 		tags: (2)[("afro", "afrochella")],
 		title: "DevChat.tv",
 		description:
-			"test description all the way.... This is where the description for each resource willexist",
+			"test description all the way.... This is where the description for each resource will exist",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -356,7 +356,7 @@ let weeklys = [
 		tags: (2)[("afro", "afrochella")],
 		title: "CodeNewbie",
 		description:
-			"test description all the way.... This is where the description for each resource willexist",
+			"test description all the way.... This is where the description for each resource will exist",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	}
@@ -669,38 +669,10 @@ function showAboutPage(e) {
 		// Adding Source for image
 		document.getElementById("resImg").src = resSrc;
 		// Adding description
-		document.getElementById("resDes").textContent = resDes;
+		document.getElementById("resDes").textContent = "Description: " + resDes;
 		// adding
 		document.getElementById("goto").name = resWebsite;
 		// console.log(resWebsite.name);
-
-		// // injectSearchedContent
-		// // This function delevers the content associated with the page based on whats in the search bar
-		// // if nothing is in the search bar it displays the entire data base.
-		// ////////////////////////////////////////////////////////////////////
-
-		// // [] Dynamically evaluate the cases whether tutorials tools or weeklys.
-		// switch (true) {
-		// 	case clickedItem === "tutorials":
-		// 		console.log("fetching tutorials");
-		// 		// appendToDOM(tutorials); // Variable is the array of objects stored from the axios call.
-		// 		filteredSearch(tutorials);
-		// 		break;
-		// 	case clickedItem === "tools":
-		// 		console.log("fetching tutorials");
-		// 		// appendToDOM(tools); // Variable is the array of objects stored from the axios call.
-		// 		filteredSearch(tools);
-		// 		break;
-		// 	case clickedItem === "weeklys":
-		// 		console.log("fetching tutorials");
-		// 		// appendToDOM(weeklys); // Variable is the array of objects stored from the axios call.
-		// 		filteredSearch(weeklys);
-		// 		break;
-		// 	default:
-		// 		alert("We can  use this to default to a specific search");
-		// }
-
-		// document.getElementById("searchPageContainer1").style.display = "block";
 	}
 	e.stopPropagation();
 }
@@ -708,40 +680,25 @@ function showAboutPage(e) {
 // about resource options.
 
 var theAboutButton = document.getElementById("resButton");
-// var theParent = document.getElementById("grandParentContainer");
 theAboutButton.addEventListener("click", aboutOptions, false);
 
 function aboutOptions(e) {
-	console.log(e.target);
-	console.log(e.currentTarget);
 	var currentWebsite = document.getElementById("goto").name;
 
-	// console.log(document.getElementById("goto").name);
-
-	// // [] Dynamically evaluate the cases whether tutorials tools or weeklys.
-	// switch (true) {
-	// 	case clickedItem === "tutorials":
-	// 		console.log("fetching tutorials");
-	// 		// appendToDOM(tutorials); // Variable is the array of objects stored from the axios call.
-	// 		filteredSearch(tutorials);
-	// 		break;
-	// 	case clickedItem === "tools":
-	// 		console.log("fetching tutorials");
-	// 		// appendToDOM(tools); // Variable is the array of objects stored from the axios call.
-	// 		filteredSearch(tools);
-	// 		break;
-	// 	case clickedItem === "weeklys":
-	// 		console.log("fetching tutorials");
-	// 		// appendToDOM(weeklys); // Variable is the array of objects stored from the axios call.
-	// 		filteredSearch(weeklys);
-	// 		break;
-	// 	default:
-	// 		alert("We can  use this to default to a specific search");
-	// }
-
-	if (e.target.id == "goToResource") {
-		var win = window.open(currentWebsite);
-		win.focus();
+	if (e.target !== e.currentTarget) {
+		console.log(e.target);
+		console.log(e.currentTarget);
+		if (e.target.id == "goToResource") {
+			var win = window.open(currentWebsite);
+			win.focus();
+		} else if (e.target.id == "addToProfile") {
+			//We will go to the users resource board.
+			alert(
+				"NOTE: We are currently working on the functionality to add the current resource to user's resource page."
+			);
+		} else {
+			// Dont do anything
+		}
 	}
 
 	e.stopPropagation();
