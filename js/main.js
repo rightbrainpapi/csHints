@@ -694,7 +694,7 @@ function aboutOptions(e) {
 		} else if (e.target.id == "addToProfile") {
 			//We will go to the users resource board.
 			alert(
-				"NOTE: We are currently working on the functionality to add the current resource to user's resource page."
+				"NOTE: We are currently working on the functionality to add the current resource to the user's resource page."
 			);
 		} else {
 			// Dont do anything
