@@ -632,6 +632,12 @@ li {
 
 @media only screen and (max-width: 480px) {
 	#resContainer {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-self: center;
+		/* justify-self: center; */
+		/* background: red; */
 		width: 15em;
 	}
 }
