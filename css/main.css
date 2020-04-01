@@ -629,3 +629,9 @@ input {
 li {
 	list-style: none;
 }
+
+@media only screen and (max-width: 480px) {
+	#resContainer {
+		width: 15em;
+	}
+}
