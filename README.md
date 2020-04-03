@@ -93,10 +93,10 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## Copyright and License
 
-Copyright 2020 Darnell Simon. Code released under [the MIT License](LICENSE.md). Images released under [Creative Commons](https://creativecommons.org/licenses/by/3.0/legalcode.txt).
+Copyright 2020 CS HInts. Code released under [the MIT License](LICENSE.md). Images released under [Creative Commons](https://creativecommons.org/licenses/by/3.0/legalcode.txt).
 
-## Acknowledgments
+<!-- ## Acknowledgments
 
 - Hat tip to anyone who's code was used
 - Inspiration
-- etc
+- etc -->
