@@ -489,7 +489,7 @@ img:hover {
 /* ///// Modal Section /// */
 /* //////////////////////// */
 .button {
-	background-color: turquoise;
+	background-color: #40e0d0;
 	border: 2px solid white;
 	border-radius: 30px;
 	text-decoration: none;
@@ -563,7 +563,7 @@ input {
 /* ///// footer Section /// */
 /* //////////////////////// */
 .footerContainer {
-	background: salmon;
+	background: #fa8072;
 	display: flex;
 	justify-content: center;
 	align-content: center;
