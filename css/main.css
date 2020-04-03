@@ -263,8 +263,8 @@ button:focus {
 	z-index: 3;
 }
 .searchTab:hover {
-	background-color: turquoise;
-	color: salmon;
+	background-color: #40e0d0;
+	color: #fa8072;
 	filter: brightness(85%);
 	transition: 0.7s;
 	z-index: 3;
