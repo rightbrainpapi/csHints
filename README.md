@@ -21,7 +21,7 @@ When this project is finished users should be able to search for resources, pin 
 - [GitHub](https://github.com/rightbrainpapi)
 - [Twitter](https://twitter.com/rightbrainpapi)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+<!-- See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project. -->
 
 ## Getting Started
 
