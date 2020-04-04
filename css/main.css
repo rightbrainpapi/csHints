@@ -637,6 +637,11 @@ li {
 		/* background: red; */
 		width: 15em;
 	}
+	/* .headerLogo {
+		display: none;
+	} */
+}
+@media only screen and (max-width: 288px) {
 	.headerLogo {
 		display: none;
 	}
