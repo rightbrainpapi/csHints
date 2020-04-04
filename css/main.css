@@ -575,6 +575,9 @@ input {
 /* Masonry on Phone screens */
 /* //////////////////////// */
 @media (max-width: 900px) {
+	.headerLogo {
+		display: none;
+	}
 	.nav-search-form {
 		display: none;
 	}
@@ -636,13 +639,5 @@ li {
 		/* justify-self: center; */
 		/* background: red; */
 		width: 15em;
-	}
-	/* .headerLogo {
-		display: none;
-	} */
-}
-@media only screen and (max-width: 288px) {
-	.headerLogo {
-		display: none;
 	}
 }
