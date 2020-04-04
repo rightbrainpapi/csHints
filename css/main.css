@@ -637,4 +637,7 @@ li {
 		/* background: red; */
 		width: 15em;
 	}
+	.headerLogo {
+		display: none;
+	}
 }
