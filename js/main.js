@@ -120,8 +120,7 @@ let tutorials = [
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
 		title: "hackr.io",
-		description:
-			"test description all the way.... This is where the description for each resource will exist",
+		description: "This is where the description for each resource will exist.",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -133,8 +132,7 @@ let tutorials = [
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
 		title: "overapi",
-		description:
-			"test description all the way.... This is where the description for each resource will exist",
+		description: "This is where the description for each resource will exist.",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -146,8 +144,7 @@ let tutorials = [
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
 		title: "maryrosecook",
-		description:
-			"test description all the way.... This is where the description for each resource will exist",
+		description: "This is where the description for each resource will exist.",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -159,8 +156,7 @@ let tutorials = [
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
 		title: "w3schools",
-		description:
-			"test description all the way.... This is where the description for each resource will exist",
+		description: "This is where the description for each resource will exist.",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -172,8 +168,7 @@ let tutorials = [
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
 		title: "egghead",
-		description:
-			"test description all the way.... This is where the description for each resource will exist",
+		description: "This is where the description for each resource will exist.",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -185,8 +180,7 @@ let tutorials = [
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
 		title: "illustrated.dev",
-		description:
-			"test description all the way.... This is where the description for each resource will exist",
+		description: "This is where the description for each resource will exist.",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -198,8 +192,7 @@ let tutorials = [
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
 		title: "Mastering Markdown",
-		description:
-			"test description all the way.... This is where the description for each resource will exist",
+		description: "This is where the description for each resource will exist.",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -211,8 +204,7 @@ let tutorials = [
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
 		title: "open Vim.",
-		description:
-			"test description all the way.... This is where the description for each resource will exist",
+		description: "This is where the description for each resource will exist.",
 
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
@@ -225,8 +217,7 @@ let tutorials = [
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
 		title: "Voyager",
-		description:
-			"test description all the way.... This is where the description for each resource will exist",
+		description: "This is where the description for each resource will exist.",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -238,8 +229,7 @@ let tutorials = [
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
 		title: "Bash Academy",
-		description:
-			"test description all the way.... This is where the description for each resource will exist",
+		description: "This is where the description for each resource will exist.",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -251,8 +241,7 @@ let tutorials = [
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
 		title: "codeacdemy",
-		description:
-			"test description all the way.... This is where the description for each resource will exist",
+		description: "This is where the description for each resource will exist.",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	}
@@ -266,8 +255,7 @@ let tools = [
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
 		title: "snapsvg",
-		description:
-			"test description all the way.... This is where the description for each resource will exist",
+		description: "This is where the description for each resource will exist.",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -279,8 +267,7 @@ let tools = [
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
 		title: "Git Branching",
-		description:
-			"test description all the way.... This is where the description for each resource will exist",
+		description: "This is where the description for each resource will exist.",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -292,8 +279,7 @@ let tools = [
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
 		title: "FlexFroggy",
-		description:
-			"test description all the way.... This is where the description for each resource will exist",
+		description: "This is where the description for each resource will exist.",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -305,8 +291,7 @@ let tools = [
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
 		title: "CodePen",
-		description:
-			"test description all the way.... This is where the description for each resource will exist",
+		description: "This is where the description for each resource will exist.",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -318,8 +303,7 @@ let tools = [
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
 		title: "EmailDrop",
-		description:
-			"test description all the way.... This is where the description for each resource will exist",
+		description: "This is where the description for each resource will exist.",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -331,8 +315,7 @@ let tools = [
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
 		title: "CodeShare",
-		description:
-			"test description all the way.... This is where the description for each resource will exist",
+		description: "This is where the description for each resource will exist.",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	}
@@ -346,8 +329,7 @@ let weeklys = [
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
 		title: "DevChat.tv",
-		description:
-			"test description all the way.... This is where the description for each resource will exist",
+		description: "This is where the description for each resource will exist.",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	},
@@ -359,14 +341,342 @@ let weeklys = [
 		price: 1,
 		tags: (2)[("afro", "afrochella")],
 		title: "CodeNewbie",
-		description:
-			"test description all the way.... This is where the description for each resource will exist",
+		description: "This is where the description for each resource will exist.",
 		user: "User Name",
 		_id: "5df5093ca9644c9fd0ffdd3c"
 	}
 ];
+let csHintsRes = [
+	{
+		title: "Udemy",
+		website: "https://www.udemy.com/",
+		image:
+			"https://cdn.glitch.com/b75055dd-03c2-47e5-9f5d-7923ac439cc1%2Fudemy.png?v=1586037544887",
+		description:
+			"Udemy bills itself as an online learning marketplace, hosting 130,000+ user-created courses on all kinds of topics (including over 2,000 coding-related classes). While some of Udemy’s offerings are paid (costing $20-$200 per course), there are plenty of free coding classes as well, including some shorter Tech 101-type courses that teach code for beginners.",
+		category: "for-profit",
+		tags: "courses, developing",
+		cost: "free"
+	},
+	{
+		title: "SkillCrush",
+		website: "https://skillcrush.com/start-free",
+		image:
+			"https://cdn.glitch.com/b75055dd-03c2-47e5-9f5d-7923ac439cc1%2Fskillcrushpng.png?v=1586038301917",
+		description:
+			"Skillcrush’s Free Coding Camp is our totally beginner-friendly intro to tech, techies, and kick-ass careers that you can complete in less than five minutes a day. Delivered straight to your inbox, you will learn how to code in the simplest terms possible—and even get to try writing your own code!—so you can see if learning coding is the right move for you…",
+		category: "non-profit",
+		tags: "courses, learning, developing",
+		cost: "free"
+	},
+	// {
+	// 	title: "BlackGirlsCode",
+	// 	website:
+	// 		"http://www.blackgirlscode.com/?fbclid=IwAR399DSWExDIW1olgLOBimxaYefdS2xCQ_DH9nfmsU7J9gYVqfqZ9ywNS1I",
+	// 	image:
+	// 		"http://www.blackgirlscode.com/uploads/1/5/8/2/15823664/published/1320916358.png?1485809428",
+	// 	description:
+	// 		"Black Girls CODE is a non-profit organization dedicated to teaching girls ages 7-17 about computer programming and digital technology.",
+	// 	category: "non-profit",
+	// 	tags: "learning",
+	// 	cost: "free"
+	// },
+	{
+		title: "Codehs",
+		website: "https://codehs.com/",
+		image: "https://static.codehs.com/img/brand_logo.png",
+		description:
+			"CodeHS is a teaching platform for helping schools teach computer science. They provide web-based curriculum, teacher tools and resources, and professional development.",
+		category: "non-profit",
+		tags: "teaching",
+		cost: "free"
+	},
+	{
+		title: "Code.org",
+		website: "https://code.org/",
+		image: "https://code.org/images/logo.png",
+		description:
+			"Code.org is an organization dedicated to expanding access to computer science in schools and increasing participation by women and underrepresented minorities. Start here for coding resources such as games, apps and courses.",
+		category: "non-profit",
+		tags: "teaching",
+		cost: "free"
+	},
+	{
+		title: "AI4K12",
+		website: "http://ai4k12.org/",
+		image:
+			"https://raw.githubusercontent.com/touretzkyds/ai4k12/master/images/AI4K12_Transparent_BG.png",
+		description:
+			"In May, the Association for the Advancement of Artificial Intelligence (AAAI) and the Computer Science Teachers Association (CSTA) launched the AI for K-12 Working Group (AI4K12) to define for artificial intelligence what students should know and be able to do.",
+		category: "non-profit",
+		tags: "teaching",
+		cost: "free"
+	},
+	{
+		title: "Codecademy",
+		website: "https://www.codecademy.com/",
+		image:
+			"https://cdn.glitch.com/b75055dd-03c2-47e5-9f5d-7923ac439cc1%2F10-codeAcademy.png?v=1586031174190",
+		description:
+			"Codecademy is an online catalog of coding course ranging from web development to programming.",
+		category: "for-profit",
+		tags: "learning",
+		cost: "free"
+	},
+	{
+		title: "Cs for All Teachers",
+		website: "https://www.air.org/project/cs-all-teachers",
+		image:
+			"https://cdn.glitch.com/b75055dd-03c2-47e5-9f5d-7923ac439cc1%2Fair-logo.png?v=1586031844980",
+		description:
+			"CS for All Teachers is a virtual community of practice, welcoming all teachers from PreK through high school who are interested in teaching computer science. It provides an online home for teachers to connect with one another and with the resources and expertise they need to teach computer science in their classrooms.",
+		category: "tools",
+		tags: "teaching",
+		cost: "free"
+	},
+	{
+		title: "Computer Science Teachers Association",
+		website: "https://www.csteachers.org/",
+		image:
+			"https://clubrunner.blob.core.windows.net/00000305564/Images/csta-logo.png",
+		description:
+			"Computer Science Teachers Association (CSTA) is a membership organization that supports and promotes the teaching of computer science. They provide opportunities for K–12 teachers and their students to better understand computer science and to more successfully prepare themselves to teach and learn.",
+		category: "association",
+		tags: "teaching",
+		cost: "free"
+	},
+	{
+		title: "Hour of Code",
+		website: "https://hourofcode.com/us",
+		image: "https://hourofcode.com/us/en/images/hour-of-code-logo.png",
+		description:
+			'The Hour of Code started as a one-hour introduction to computer science, designed to demystify "code", to show that anybody can learn the basics, and to broaden participation in the field of computer science. It has since become a worldwide effort to celebrate computer science, starting with 1-hour coding activities but expanding to all sorts of community efforts.',
+		category: "non-profit",
+		tags: "learning",
+		cost: "free"
+	},
+	{
+		title: "Khan Academy",
+		website: "https://www.khanacademy.org/",
+		image:
+			"https://cdn.glitch.com/b75055dd-03c2-47e5-9f5d-7923ac439cc1%2Fkhanacademy.png?v=1586032784351",
+		description:
+			"Khan Academy offers practice exercises, instructional videos, and a personalized learning dashboard that helps learners to study at their own pace in and outside of the classroom.",
+		category: "non-profit",
+		tags: "learning",
+		cost: "free"
+	},
+	// {
+	// 	title: "Project Lead the Way",
+	// 	website: "https://www.pltw.org/our-programs/pltw-computer-science",
+	// 	image:
+	// 		"https://cdn.glitch.com/b75055dd-03c2-47e5-9f5d-7923ac439cc1%2Fpltw.png?v=1586033313633",
+	// 	description:
+	// 		"Project Lead the Way provides learning experiences for PreK-12 students and teachers across the U.S. They create a hands-on classroom environment and aim to help students to develop the knowledge and skills they need to succeed. Additionally, they provide teachers with the training, resources, and support they need to engage students in real-world learning.",
+	// 	category: "non-profit",
+	// 	tags: "teaching",
+	// 	cost: "free"
+	// },
+	{
+		title: "Raspberry Pi",
+		website: "https://www.raspberrypi.org/",
+		image: "https://www.raspberrypi.org/app/uploads/2011/10/Raspi-PGB001.png",
+		description:
+			"Raspberry Pi is a UK-based charity that works to put the power of computing and digital making into the hands of people all over the world. They do this so that more people are “able to harness the power of computing and digital technologies for work, to solve problems that matter to them, and to express themselves creatively.”",
+		category: "non-profit",
+		tags: "learning",
+		cost: "free"
+	},
+	// {
+	// 	title: "Tynker",
+	// 	website: "https://www.tynker.com/",
+	// 	image: "https://www.tynker.com/image/tynker-logo-white.png",
+	// 	description:
+	// 		"Tynker helps kids learn to code using visual code blocks that represent real programming concepts. They progress to text languages like JavaScript and Python as they continue to play through 2,000+ interest-driven activities.",
+	// 	category: "for-profit",
+	// 	tags: "learning",
+	// 	cost: "free"
+	// },
+	{
+		title: "Scratch",
+		website: "https://scratch.mit.edu/",
+		image:
+			"https://cdn.glitch.com/b75055dd-03c2-47e5-9f5d-7923ac439cc1%2FscratchLogo.png?v=1586034598136",
+		description:
+			"Scratch helps young people learn to think creatively, reason systematically, and work collaboratively.",
+		category: "non-profit",
+		tags: "learning",
+		cost: "free"
+	},
+	{
+		title: "Skillcrush",
+		website: "https://skillcrush.com/start-free",
+		image:
+			"https://cdn.glitch.com/b75055dd-03c2-47e5-9f5d-7923ac439cc1%2Fskillcrushpng.png?v=1586038301917",
+		description:
+			"Skillcrush’s Free Coding Camp is our totally beginner-friendly intro to tech, techies, and kick-ass careers that you can complete in less than five minutes a day. Delivered straight to your inbox, you will learn how to code in the simplest terms possible—and even get to try writing your own code!—so you can see if learning coding is the right move for you…",
+		category: "non-profit",
+		tags: "learning",
+		cost: "free"
+	},
+	{
+		title: "Coursera",
+		website: "https://www.coursera.org/",
+		image:
+			"https://cdn.glitch.com/b75055dd-03c2-47e5-9f5d-7923ac439cc1%2Fcoursera.png?v=1586039132444",
+		description:
+			"Coursera is an online learning platform that hosts content from top universities, including over 100 coding classes. If you’re ready to learn how to code, you could do worse than start here. Coursera’s classes are free to audit.",
+		category: "non-profit",
+		tags: "courses, web development, learning",
+		cost: "free"
+	},
+	{
+		title: "EdX",
+		website: "https://www.edx.org/course?search_query=coding",
+		image: "https://www.edx.org/sites/default/files/theme/edx-logo-header.png",
+		description:
+			"EdX is another university-backed online learning platform with content from schools like Harvard and MIT. Like Coursera, many of EdX’s classes are free to audit, including classes on different programming languages, as well as some basic HTML, CSS, and JavaScript options.",
+		category: "non-profit",
+		tags: "courses, web development",
+		cost: "free"
+	},
+	// {
+	// 	title: "Mit Opencourseware",
+	// 	website: "https://ocw.mit.edu/courses/intro-programming/",
+	// 	image: "https://ocw.mit.edu/images/ocw_mast.png",
+	// 	description:
+	// 		"MIT OpenCourseWare is part of an MIT initiative to publish ALL of the educational materials from its courses online for free. Sound too good to be true? It’s not! Aaaaand, that includes plenty of intro to programming and other tech and coding for beginners type classes.",
+	// 	category: "non-profit",
+	// 	tags: "courses, web development, learning",
+	// 	cost: "free"
+	// },
+	{
+		title: "Web Fundamentals",
+		website: "https://developers.google.com/web/fundamentals/",
+		image:
+			"https://developers.google.com/web/images/web-fundamentals-icon192x192.png",
+		description:
+			"Web Fundamentals is a Google project to provide free, open source, online coding lessons and tutorials to the masses.",
+		category: "non-profit",
+		tags: "web development, learning",
+		cost: "free"
+	},
+	// {
+	// 	title: "Codewars",
+	// 	website: "https://www.codewars.com/",
+	// 	image:
+	// 		"https://www.codewars.com/assets/landing/logo-by-q-b02277e06ebda16eeaf3890c1c6b2e7fd35e8d8fd3ecdcc11061932cbbab9957.png",
+	// 	description:
+	// 		"Codewars adds some quirk to the proceedings by offering free coding classes with a martial arts theme. Solving specific coding “katas” (a term for training exercises in karate) will earn you ranks and honors as you move your way to becoming a bonafide coder. Who said learning to code online couldn’t be fun? Codewars also offers one of the more diverse lists of programming languages.",
+	// 	category: "non-profit",
+	// 	tags: "courses, web development, learning, games",
+	// 	cost: "free"
+	// },
+	{
+		title: "Codeconquest",
+		website: "https://www.codeconquest.com/",
+		image:
+			"https://cdn.glitch.com/b75055dd-03c2-47e5-9f5d-7923ac439cc1%2FcodeConquest.png?v=1586041174912",
+		description:
+			"Codeconquest is a full-service, free learn-to-code platform offering onsite tutorials and reviews of premium coding sites. More text-heavy than some of the other resources on our list—but some people learn best by reading!",
+		category: "non-profit",
+		tags: "courses, learning, study guide",
+		cost: "free"
+	},
+	// {
+	// 	title: "GA Dash",
+	// 	website: "https://dash.generalassemb.ly/",
+	// 	image:
+	// 		"https://cdn.glitch.com/b75055dd-03c2-47e5-9f5d-7923ac439cc1%2FgaDash.png?v=1586042481282",
+	// 	description:
+	// 		"GA Dash is the free arm of paid coding school General Assembly. This free course teaches the basics of HTML, CSS, and JavaScript in a user-friendly and interactive way with the same level of quality as other paid GA classes. Think of it sort of like a $0 coding bootcamp. It will absolutely get you started learning to code for free.",
+	// 	category: "bootcamp",
+	// 	tags: "courses, web development, learning",
+	// 	cost: "free"
+	// },
+	{
+		title: "Udacity",
+		website: "https://www.udacity.com/",
+		image:
+			"https://cdn.glitch.com/b75055dd-03c2-47e5-9f5d-7923ac439cc1%2FudacityLogo.png?v=1586042559669",
+		description:
+			"Udacity is an online coding school with a mix of free and paid classes (around 200 of their coding classes—what they call “nanodegrees”—are free).",
+		category: "bootcamp",
+		tags: "courses, web development, learning",
+		cost: "paid"
+	},
+	{
+		title: "Tuts+",
+		website: "https://tutsplus.com/",
+		image:
+			"https://cdn.glitch.com/b75055dd-03c2-47e5-9f5d-7923ac439cc1%2Ftuts.png?v=1586043179461",
+		description:
+			"Tuts+ is an online tutorial library featuring over 20,000 free tutorials (thousands of those dedicated to coding and tech topics).",
+		category: "for-profit",
+		tags: "courses, learning, study guide",
+		cost: "free"
+	},
+	{
+		title: "The Odin Project",
+		website: "https://www.theodinproject.com/",
+		image:
+			"https://cdn.glitch.com/b75055dd-03c2-47e5-9f5d-7923ac439cc1%2FodinProject.png?v=1586043800534",
+		description:
+			"The Odin Project is a coding resource for absolute beginners that offers a free, open source curriculum. An ideal option for anyone wanting to learn coding online.",
+		category: "tools",
+		tags: "web development, learning, study guide, curriculum",
+		cost: "free"
+	},
+	{
+		title: "BitDegree",
+		website: "https://www.bitdegree.org/",
+		image:
+			"https://cdn.glitch.com/b75055dd-03c2-47e5-9f5d-7923ac439cc1%2FbitDegree.png?v=1586043948426",
+		description:
+			"Bento is a site that curates free coding classes from around the web and structures them into a comprehensive curriculum.",
+		category: "for-profit",
+		tags: "courses, web development, learning",
+		cost: "free"
+	},
+	{
+		title: "CodeAvengers",
+		website: "https://www.codeavengers.com/",
+		image:
+			"https://cdn.glitch.com/b75055dd-03c2-47e5-9f5d-7923ac439cc1%2FcodeAvengers.png?v=1586044229895",
+		description:
+			"Code Avengers is an online platform with a mix of free coding classes and premium courses.",
+		category: "for-profit",
+		tags: "courses, web development, learning",
+		cost: "free"
+	},
+	{
+		title: "SoloLearn",
+		website: "https://www.sololearn.com/",
+		image:
+			"https://cdn.glitch.com/b75055dd-03c2-47e5-9f5d-7923ac439cc1%2FsoloLearnLogo.png?v=1586044430779",
+		description:
+			"SoloLearn is an online and mobile learning platform with free coding classes in 13 different programming disciplines.",
+		category: "tools",
+		tags: "courses, web development, learning",
+		cost: "free"
+	},
+	{
+		title: "FreeCodeCamp",
+		website: "https://www.freecodecamp.org/",
+		image:
+			"https://cdn.glitch.com/b75055dd-03c2-47e5-9f5d-7923ac439cc1%2FfreeCodeCamp.png?v=1586044620561",
+		description:
+			"freeCodeCamp is a non-profit that advertises itself as “dedicated to teaching the world how to code for free.”",
+		category: "tutorials",
+		tags: "courses, web development, learning, curriculum",
+		cost: "free"
+	}
+];
 let myPics = [];
-let allResources = tutorials.concat(tools).concat(weeklys);
+let allResources = tutorials
+	.concat(tools)
+	.concat(weeklys)
+	.concat(csHintsRes);
 /////////////////////////////////////
 ////////////////////////////////////
 // Create the Li function with 1 pic
@@ -672,7 +982,7 @@ function showAboutPage(e) {
 		// Adding Source for image
 		document.getElementById("resImg").src = resSrc;
 		// Adding description
-		document.getElementById("resDes").textContent = "Description: " + resDes;
+		document.getElementById("resDes").textContent = resDes;
 		// adding
 		document.getElementById("goto").name = resWebsite;
 		// console.log(resWebsite.name);

@@ -355,8 +355,8 @@ button:focus {
 	width: 30em;
 }
 
-/* #resDes{
-
+/* #resDes {
+	text-align: left;
 } */
 
 /* Child of resContainer */
@@ -365,10 +365,12 @@ button:focus {
 	align-self: center;
 	justify-self: center;
 	margin: 10px 0 10px 0;
-	width: 90%;
+	width: 100%;
 	/* background-color: green; */
 
 	/* for children */
+	background: rgba(250, 128, 114, 0.5);
+	border-radius: 5px;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -378,8 +380,12 @@ button:focus {
 	/* for self */
 	align-self: center;
 	justify-self: center;
-	width: 80%;
+	width: 90%;
+	height: 90%;
 	/* background-color: blue; */
+	/* background: rgba(250, 128, 114, 0.5); */
+	color: rgb(0, 0, 0);
+	text-align: left;
 	/*color: green; */
 	/* for children */
 }
@@ -466,7 +472,8 @@ button:focus {
 	width: 100%;
 	height: 100%;
 	/* padding:2rem 20px 20px ;
-    background: green; */
+	background: green; */
+	background: rgba(250, 128, 114, 0.5);
 }
 
 /* Styling specific to these images */
@@ -476,6 +483,7 @@ img {
 	/* border-radius: 25%; */
 	/* background: white; */
 	background: #f1f1f1;
+	/* background: rgba(250, 128, 114, 0.5); */
 	border-radius: 2%;
 	border: solid;
 }
@@ -483,6 +491,7 @@ img {
 img:hover {
 	opacity: 0.5;
 	transition: 0.9s;
+	background-color: rgba(250, 128, 114, 0.5);
 }
 
 /* //////////////////////// */
@@ -500,6 +509,7 @@ img:hover {
 }
 .button:hover {
 	background-color: white;
+
 	color: turquoise;
 	border: 2px solid turquoise;
 	transition: 0.7s;
