@@ -391,16 +391,16 @@ let csHintsRes = [
 		tags: "teaching",
 		cost: "free"
 	},
-	{
-		title: "Code.org",
-		website: "https://code.org/",
-		image: "https://code.org/images/logo.png",
-		description:
-			"Code.org is an organization dedicated to expanding access to computer science in schools and increasing participation by women and underrepresented minorities. Start here for coding resources such as games, apps and courses.",
-		category: "non-profit",
-		tags: "teaching",
-		cost: "free"
-	},
+	// {
+	// 	title: "Code.org",
+	// 	website: "https://code.org/",
+	// 	image: "https://code.org/images/logo.png",
+	// 	description:
+	// 		"Code.org is an organization dedicated to expanding access to computer science in schools and increasing participation by women and underrepresented minorities. Start here for coding resources such as games, apps and courses.",
+	// 	category: "non-profit",
+	// 	tags: "teaching",
+	// 	cost: "free"
+	// },
 	{
 		title: "AI4K12",
 		website: "http://ai4k12.org/",
@@ -508,17 +508,17 @@ let csHintsRes = [
 		tags: "learning",
 		cost: "free"
 	},
-	{
-		title: "Skillcrush",
-		website: "https://skillcrush.com/start-free",
-		image:
-			"https://cdn.glitch.com/b75055dd-03c2-47e5-9f5d-7923ac439cc1%2Fskillcrushpng.png?v=1586038301917",
-		description:
-			"Skillcrush’s Free Coding Camp is our totally beginner-friendly intro to tech, techies, and kick-ass careers that you can complete in less than five minutes a day. Delivered straight to your inbox, you will learn how to code in the simplest terms possible—and even get to try writing your own code!—so you can see if learning coding is the right move for you…",
-		category: "non-profit",
-		tags: "learning",
-		cost: "free"
-	},
+	// {
+	// 	title: "Skillcrush",
+	// 	website: "https://skillcrush.com/start-free",
+	// 	image:
+	// 		"https://cdn.glitch.com/b75055dd-03c2-47e5-9f5d-7923ac439cc1%2Fskillcrushpng.png?v=1586038301917",
+	// 	description:
+	// 		"Skillcrush’s Free Coding Camp is our totally beginner-friendly intro to tech, techies, and kick-ass careers that you can complete in less than five minutes a day. Delivered straight to your inbox, you will learn how to code in the simplest terms possible—and even get to try writing your own code!—so you can see if learning coding is the right move for you…",
+	// 	category: "non-profit",
+	// 	tags: "learning",
+	// 	cost: "free"
+	// },
 	{
 		title: "Coursera",
 		website: "https://www.coursera.org/",
@@ -530,16 +530,16 @@ let csHintsRes = [
 		tags: "courses, web development, learning",
 		cost: "free"
 	},
-	{
-		title: "EdX",
-		website: "https://www.edx.org/course?search_query=coding",
-		image: "https://www.edx.org/sites/default/files/theme/edx-logo-header.png",
-		description:
-			"EdX is another university-backed online learning platform with content from schools like Harvard and MIT. Like Coursera, many of EdX’s classes are free to audit, including classes on different programming languages, as well as some basic HTML, CSS, and JavaScript options.",
-		category: "non-profit",
-		tags: "courses, web development",
-		cost: "free"
-	},
+	// {
+	// 	title: "EdX",
+	// 	website: "https://www.edx.org/course?search_query=coding",
+	// 	image: "https://www.edx.org/sites/default/files/theme/edx-logo-header.png",
+	// 	description:
+	// 		"EdX is another university-backed online learning platform with content from schools like Harvard and MIT. Like Coursera, many of EdX’s classes are free to audit, including classes on different programming languages, as well as some basic HTML, CSS, and JavaScript options.",
+	// 	category: "non-profit",
+	// 	tags: "courses, web development",
+	// 	cost: "free"
+	// },
 	// {
 	// 	title: "Mit Opencourseware",
 	// 	website: "https://ocw.mit.edu/courses/intro-programming/",
@@ -572,17 +572,17 @@ let csHintsRes = [
 	// 	tags: "courses, web development, learning, games",
 	// 	cost: "free"
 	// },
-	{
-		title: "Codeconquest",
-		website: "https://www.codeconquest.com/",
-		image:
-			"https://cdn.glitch.com/b75055dd-03c2-47e5-9f5d-7923ac439cc1%2FcodeConquest.png?v=1586041174912",
-		description:
-			"Codeconquest is a full-service, free learn-to-code platform offering onsite tutorials and reviews of premium coding sites. More text-heavy than some of the other resources on our list—but some people learn best by reading!",
-		category: "non-profit",
-		tags: "courses, learning, study guide",
-		cost: "free"
-	},
+	// {
+	// 	title: "Codeconquest",
+	// 	website: "https://www.codeconquest.com/",
+	// 	image:
+	// 		"https://cdn.glitch.com/b75055dd-03c2-47e5-9f5d-7923ac439cc1%2FcodeConquest.png?v=1586041174912",
+	// 	description:
+	// 		"Codeconquest is a full-service, free learn-to-code platform offering onsite tutorials and reviews of premium coding sites. More text-heavy than some of the other resources on our list—but some people learn best by reading!",
+	// 	category: "non-profit",
+	// 	tags: "courses, learning, study guide",
+	// 	cost: "free"
+	// },
 	// {
 	// 	title: "GA Dash",
 	// 	website: "https://dash.generalassemb.ly/",
@@ -605,17 +605,17 @@ let csHintsRes = [
 		tags: "courses, web development, learning",
 		cost: "paid"
 	},
-	{
-		title: "Tuts+",
-		website: "https://tutsplus.com/",
-		image:
-			"https://cdn.glitch.com/b75055dd-03c2-47e5-9f5d-7923ac439cc1%2Ftuts.png?v=1586043179461",
-		description:
-			"Tuts+ is an online tutorial library featuring over 20,000 free tutorials (thousands of those dedicated to coding and tech topics).",
-		category: "for-profit",
-		tags: "courses, learning, study guide",
-		cost: "free"
-	},
+	// {
+	// 	title: "Tuts+",
+	// 	website: "https://tutsplus.com/",
+	// 	image:
+	// 		"https://cdn.glitch.com/b75055dd-03c2-47e5-9f5d-7923ac439cc1%2Ftuts.png?v=1586043179461",
+	// 	description:
+	// 		"Tuts+ is an online tutorial library featuring over 20,000 free tutorials (thousands of those dedicated to coding and tech topics).",
+	// 	category: "for-profit",
+	// 	tags: "courses, learning, study guide",
+	// 	cost: "free"
+	// },
 	{
 		title: "The Odin Project",
 		website: "https://www.theodinproject.com/",

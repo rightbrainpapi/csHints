@@ -351,9 +351,24 @@ button:focus {
 	flex-direction: column;
 	align-self: center;
 	/* justify-self: center; */
-	/* background: red; */
+	/* background: rgba(250, 128, 114, 0.5); */
 	width: 30em;
+	border-style: solid;
 }
+
+#resImg {
+	border: none;
+	border-radius: 0px;
+	/* border-style: solid; */
+	border-top: solid;
+	border-bottom: solid;
+}
+
+/* #resImg:hover {
+	opacity: 0.5;
+	transition: 0.9s;
+	background-color: transparent;
+} */
 
 /* #resDes {
 	text-align: left;
@@ -369,7 +384,7 @@ button:focus {
 	/* background-color: green; */
 
 	/* for children */
-	background: rgba(250, 128, 114, 0.5);
+	/* background: rgba(250, 128, 114, 0.5); */
 	border-radius: 5px;
 	display: flex;
 	justify-content: center;
@@ -489,9 +504,9 @@ img {
 }
 
 img:hover {
-	opacity: 0.5;
+	opacity: 0.8;
 	transition: 0.9s;
-	background-color: rgba(250, 128, 114, 0.5);
+	/* background-color: rgba(250, 128, 114, 0.5); */
 }
 
 /* //////////////////////// */
